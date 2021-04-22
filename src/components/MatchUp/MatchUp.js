@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Fighter from "../Fighter/Fighter";
 import './MatchUp.css';
 
 
@@ -12,7 +13,12 @@ class MatchUp extends Component {
 
   render() {
     return (
-      <h1>hello</h1>
+      <main className="matchup-container">
+        <h1 className="header">Who Would Win?</h1>
+          <Fighter id="first-fighter-box"></Fighter>
+          <div className="vs">VS</div>
+          <Fighter id="second-fighter-box"></Fighter>
+      </main>
     )
   }
 
