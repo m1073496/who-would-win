@@ -24,14 +24,14 @@ class MatchUp extends Component {
             src={image}
             alt=""
           />
-          <button className="first-stats">See stats</button>
+          {/*}<button className="first-stats">See stats</button>*/}
           <div className="vs">VS</div>
           <img
             className="second-fighter-box"
             src={image2}
             alt=""
           />
-          <button className="second-stats">See stats</button>
+          {/*<button className="second-stats">See stats</button>*/}
           <p className="choose-fighter">choose your fighters...</p>
           <NavLink className="db-link" to="/matchUp/DB">Dragon Ball</NavLink>
           <NavLink className="yyh-link" to="/matchUp/YYH">Yu Yu Hakusho</NavLink>
