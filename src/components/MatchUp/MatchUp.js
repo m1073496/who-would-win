@@ -1,13 +1,17 @@
 import { Component } from "react";
-import Fighter from "../Fighter/Fighter";
 import './MatchUp.css';
+import image from './android17-main1.png';
+import image2 from './android18-main2.png';
 
 
 class MatchUp extends Component {
   constructor() {
     super();
     this.state = {
-      images: []
+      images: [],
+      characters: [],
+      firstFighter: [],
+      secondFighter: []
     }
   }
 
@@ -15,9 +19,15 @@ class MatchUp extends Component {
     return (
       <main className="matchup-container">
         <h1 className="header">Who Would Win?</h1>
-          <Fighter id="first-fighter-box"></Fighter>
+          <img
+            className="first-fighter-box"
+            src={image}
+          />
           <div className="vs">VS</div>
-          <Fighter id="second-fighter-box"></Fighter>
+          <img
+            className="second-fighter-box"
+            src={image2}
+          />
       </main>
     )
   }
