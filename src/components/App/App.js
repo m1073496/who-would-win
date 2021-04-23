@@ -11,7 +11,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      characterData: []
+      characterData: [dbData, yyhData, hxhData]
     }
   }
 
@@ -27,15 +27,15 @@ class App extends Component {
         </Route>
         <Route
           path="/matchUp/DB">
-          <CharacterList />
+          <CharacterList characterSet={ this.state.characterData[0] }/>
         </Route>
         <Route
           path="/matchUp/YYH">
-          <CharacterList />
+          <CharacterList characterSet={ this.state.characterData[1] }/>
         </Route>
         <Route
           path="/matchUp/HXH">
-          <CharacterList />
+          <CharacterList characterSet={ this.state.characterData[2] }/>
         </Route>
       </main>
     );
