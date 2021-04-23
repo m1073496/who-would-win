@@ -18,7 +18,6 @@ class MatchUp extends Component {
       secondFighter: {}
     }
   }
-  // {`../../assets/${this.state.secondFighter.image}`}
 
   selectFighters = (fighter) => {
     if (this.state.firstFighter.name) {
@@ -31,6 +30,7 @@ class MatchUp extends Component {
   }
 
   render() {
+    console.log(this.state.secondFighter.image)
     return (
       <div>
         <main className="matchup-container">
