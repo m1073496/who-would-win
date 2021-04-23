@@ -1,7 +1,7 @@
 .nav-links-container {
   grid-column: 1 / 16;
   grid-row: 7 / 8;
-  height: 50%;
+  height: 70%;
   align-self: flex-end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -42,21 +42,20 @@
 
 .db-link:hover {
   padding: 12px;
-  background-color: #E5E9F9;
+  text-decoration: overline;
 }
 
 .yyh-link:hover {
   padding: 12px;
-  background-color: #E5E9F9;
+  text-decoration: overline;
 }
 
 .hxh-link:hover {
   padding: 12px;
-  background-color: #E5E9F9;
+  text-decoration: overline;
 }
 
-.test {
-  grid-column: 1 / 16;
-  grid-row: 8 / 9;
-  font-size: 500px;
+.selected {
+  padding: 12px;
+  background-color: #E5E9F9;
 }
