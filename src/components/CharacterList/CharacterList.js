@@ -12,7 +12,6 @@ const CharacterList = ({ characterSet, selectFighters }) => {
   // }
 
   const chooseFighter = (event) => {
-    console.log(characterSet.characters)
     const fighter = characterSet.characters.find(character => character.name === event.target.value);
     selectFighters(fighter)
   }
@@ -21,7 +20,7 @@ const CharacterList = ({ characterSet, selectFighters }) => {
     <section className="character-list-container">
       { characterSet.characters.map(character => {
           return (
-            <button value={character.name} className="character-name-item" onClick={ (event) => { chooseFighter(event) } }>{ character.name }</button>
+            <button key={character.name} value={character.name} className="character-name-item" onClick={ (event) => { chooseFighter(event) } }>{ character.name }</button>
           )
         })
       }
