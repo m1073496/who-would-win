@@ -11,7 +11,6 @@ class MatchUp extends Component {
   constructor() {
     super();
     this.state = {
-      allCharacters: [],
       firstFighter: [],
       secondFighter: []
     }

@@ -11,7 +11,21 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      characterData: [dbData, yyhData, hxhData]
+      characterData: [dbData, yyhData, hxhData],
+      firstFighter: {},
+      secondFighter: {}
+    }
+  }
+
+  selectFighters = (fighter) => {
+    if (this.state.firstFighter.name) {
+      this.setState({ secondFighter: fighter }, () => {
+        console.log(this.state)
+      })
+    } else {
+      this.setState({ firstFighter: fighter }, () => {
+        console.log(this.state)
+      })
     }
   }
 
@@ -27,15 +41,15 @@ class App extends Component {
         </Route>
         <Route
           path="/matchUp/DB">
-          <CharacterList characterSet={ this.state.characterData[0] }/>
+          <CharacterList characterSet={ this.state.characterData[0]} selectFighters={ this.selectFighters } />
         </Route>
         <Route
           path="/matchUp/YYH">
-          <CharacterList characterSet={ this.state.characterData[1] }/>
+          <CharacterList characterSet={ this.state.characterData[1]} selectFighters={ this.selectFighters } />
         </Route>
         <Route
           path="/matchUp/HXH">
-          <CharacterList characterSet={ this.state.characterData[2] }/>
+          <CharacterList characterSet={ this.state.characterData[2]} selectFighters={ this.selectFighters } />
         </Route>
       </main>
     );
