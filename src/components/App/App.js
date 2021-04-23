@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Link } from "react-router-dom";
 import MatchUp from "../MatchUp/MatchUp";
+import Stats from "../Stats/Stats";
 import './App.css';
 
 const App = () => {
@@ -13,6 +14,10 @@ const App = () => {
         <Route
           path="/matchUp">
           <MatchUp />
+        </Route>
+        <Route
+          path="/stats">
+          <Stats />
         </Route>
       </main>
     );
