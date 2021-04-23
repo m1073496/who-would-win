@@ -1,5 +1,6 @@
 import { Component } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Route, Switch } from "react-router-dom";
+import Navigation from "../Navigation/Navigation";
 import './MatchUp.css';
 import image from './android17-main1.png';
 import image2 from './android18-main2.png';
@@ -33,14 +34,10 @@ class MatchUp extends Component {
           />
           {/*<button className="second-stats">See stats</button>*/}
           <p className="choose-fighter">choose your fighters...</p>
-          <NavLink className="db-link" to="/matchUp/DB">Dragon Ball</NavLink>
-          <NavLink className="yyh-link" to="/matchUp/YYH">Yu Yu Hakusho</NavLink>
-          <NavLink className="hxh-link" to="/matchUp/HXH">Hunter X Hunter</NavLink>
+          <Navigation className="nav-bar"/>
       </main>
     )
   }
-
-
 
 }
 
