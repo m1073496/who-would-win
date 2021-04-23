@@ -2,6 +2,7 @@
  "characters": [
   {
    "name": "Goku",
+   "image": "goku.png",
    "summary": "Son Goku (孫そん悟ご空くう Son Gokū), born Kakarot (カカロット Kakarotto), is the main protagonist of the Dragon Ball metaseries. Goku is a Saiyan male originally sent to destroy Earth as an infant. However, a head injury at an early age alters his memory, ridding him of his initial destructive nature and allowing him to grow up to become one of Earth's greatest defenders. He constantly strives and trains to be the greatest warrior possible, which has kept the Earth and the universe safe from destruction many times. Goku is one of the strongest mortal warriors in the multiverse, often referred to (including by deities) as the most powerful and fittest warrior in Universe 7, as well as a one of the most powerful characters in the franchise. A prodigy of combat, he learned a great deal while a young child and would continue to near-effortlessly learn practically any new technique he encountered. His natural talent for battle along with his unwavering drive have taken his power to unprecedented levels to the point of reaching and rivaling the domain of the Gods of Destruction. Ultimately, Goku's immeasurable potential has made him believed to be incomparable and even unbeatable for any other fighter when he is at his absolute peak.",
    "rank": "Mastered Ultra Instinct",
    "rank_url": "https://dragonballuniverse.fandom.com/wiki/Ultra_Instinct",
@@ -18,6 +19,7 @@
   },
   {
    "name": "Vegeta",
+   "image": "vegeta.png",
    "summary": "Vegeta (ベジータ Bejīta), more specifically Vegeta IV (ベジータ四世 Bejīta Yonsei)[6], recognized as Prince Vegeta (ベジータ王子 Bejīta Ōji) is the prince of the fallen Saiyan race and one of the main characters of the Dragon Ball series. Regal, egotistical, and full of pride, Vegeta was once a ruthless, cold-blooded warrior and outright killer,[7] but later abandons his role in the Frieza Force, instead opting to remain and live on Earth. His character evolves from villain, to anti-hero, then to hero through the course of the series, repeatedly fighting alongside the universe's most powerful warriors in order to protect his new home and surpass Goku in power.",
    "rank": "Super Saiyan Blue Evolution Shinka Enraged",
    "rank_url": "https://dragonball.fandom.com/wiki/Super_Saiyan_God_SS_Evolved",
@@ -35,6 +37,7 @@
   },
   {
    "name": "Android 18",
+   "image": "android18-main2.png",
    "summary": "Android 18 (人造人間１８号 Jinzōningen Jū Hachi-Gō, lit. Artificial Human No. 18), originally named Lazuli (ラズリ Razuri) when she was an ordinary human, is the twin sister of Android 17 and Dr. Gero's eighteenth android creation, designed to serve Gero's vendetta against Goku. Like her brother, Android 18 usually displays a cool and confident character, especially in battle, although her sarcastic humor is the most prominent trait of her personality.",
    "rank": "450,000,000 - 900,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -54,6 +57,7 @@
   },
   {
    "name": "Android 17",
+   "image": "android17-main1.png",
    "summary": "Android 17 (人造じんぞう人間にんげん１７号ごう Jinzōningen Jū Nana-Gō, lit. Artificial Human No. 17), Lapis (ラピス Rapisu) when he was an ordinary human, is the twin brother of Android 18 and Dr. Gero's seventeenth android creation, designed to serve Gero's vendetta against Goku.",
    "rank": "450,000,000 - 900,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -72,6 +76,7 @@
   },
   {
    "name": "Krillin",
+   "image": "krillin.png",
    "summary": "Krillin (クリリン Kuririn) is a supporting protagonist in the Dragon Ball franchise. Krillin had a brief rivalry with Goku when they first met and trained under Master Roshi, but they quickly became lifelong best friends.[9] One of the most powerful and talented martial artists on Earth, Krillin is courageous, faithful, and good-natured. He is a prominent Z Fighter, despite usually being overpowered by the major enemies.",
    "rank": "7,000,000 - 38,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -88,6 +93,7 @@
   },
   {
    "name": "Frieza",
+   "image": "frieza.png",
    "summary": "Frieza (フリーザ Furīza) is the emperor of Universe 7, who controlled his own imperialist army and is feared for his ruthlessness and power. He is the descendant of Chilled, the second son of King Cold, the younger brother of Cooler, and the father of Kuriza. Frieza is the main antagonist of the entire franchise as his actions led to multiple conflicts and is even considered Goku's greatest foe and arch nemesis.",
    "rank": "120,000,000 - 50,000,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -104,6 +110,7 @@
  },
   {
    "name": "Cell",
+   "image": "cell.png",
    "summary": "Cell (セル Seru) is the ultimate creation of Dr. Gero, designed via cell recombination[1] using the genetics of the greatest fighters that the remote tracking device could find on Earth. The result was a perfect warrior, possessing numerous favorable genetic traits and special abilities from Goku, Vegeta, Piccolo, Frieza and King Cold. He was one of the few Red Ribbon Androids not directly completed by Dr. Gero, instead being completed by Dr. Gero's Supercomputer in an alternate timeline. He is the main antagonist of the Imperfect Cell, Perfect Cell, and Cell Games Sagas.",
    "rank": "3,500,000,000 - 180,000,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -127,6 +134,7 @@
   },
   {
    "name": "Majin Buu",
+   "image": "buu.png",
    "summary": "Majin Buu (魔ま人じんブウ Majin Bū, lit. Demon Person Boo) has many forms. However, each form has a different personality and goals, essentially making them separate individuals. All of Majin Buu's forms are simply referred to as Majin Buu in the series, but the various forms get their common names from various Dragon Ball Z video games. We will consider Super Buu here for the purposes of this match up.",
    "rank": "125,000,000,000 - 5,100,000,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels",
@@ -152,6 +160,7 @@
   },
   {
    "name": "Piccolo",
+   "image": "piccolo.png",
    "summary": "Piccolo Jr. (ピッコロ・ジュニア Pikkoro Junia, lit. Piccolo Junior), usually just called Piccolo or Kamiccolo and also known as Ma Junior (マジュニア Majunia), is a Namekian and also the final child and reincarnation of King Piccolo, later becoming the reunification of the Nameless Namekian after fusing with Kami. According to Grand Elder Guru, Piccolo, along with Kami and King Piccolo, are part of the Dragon Clan, who were the original creators of the Dragon Balls. A wise and cunning warrior, he was the main antagonist in the final saga of Dragon Ball, the Piccolo Jr. Saga, and was thus a ruthless enemy of Goku. However, starting with the first saga of Dragon Ball Z, the Raditz Saga, he began to lose all villainous traits, and when he started training Goku's son Gohan during the Vegeta Saga which led to the two developing a strong bond with each other, he became a permanent member of the Dragon Team and eventually one of Earth's greatest heroes.",
    "rank": "900,000,000 - 17,000,000,000 power level",
    "rank_url": "https://dragonball.fandom.com/wiki/User_blog:SpikeFuture/All_Dragon_Ball_Power_Levels#Piccolo_Jr._Saga",
@@ -170,6 +179,7 @@
   },
   {
    "name": "Goku Black / Zamasu",
+   "image": "black.png",
    "summary": "Goku Black (ゴクウブラック Gokū Burakku), usually referred to as Black, is the main antagonist of the Future Trunks Saga of Dragon Ball Super. His true identity is Zamasu (ザマス Zamasu) from the unaltered main timeline within Universe 10. He is a former North Kai and Supreme Kai apprentice serving his former master Gowasu. Goku Black visited Universe 6, went to the Super Dragon Balls from the unaltered main timeline within that universe, summoned Super Shenron from said timeline, wished to switch bodies with Goku from the unaltered main timeline within Universe 7, and Super Shenron granted Goku Black's wish. Goku Black sought to destroy all mortals alongside Future Zamasu.",
    "rank": "Divine Super Saiyan Rosé",
    "rank_url": "https://dragonball.fandom.com/wiki/Super_Saiyan_Ros%C3%A9",
@@ -192,6 +202,7 @@
   },
   {
    "name": "Future Trunks",
+   "image": "trunks.png",
    "summary": "Future Trunks (未み来らいのトランクス Mirai no Torankusu) is the Saiyan and Earthling hybrid son of Vegeta and Bulma from an alternate future. By the time Present Trunks was born, the timeline had been altered by Future Trunks' and Cell's trips to the past. Therefore, the two Trunks had completely different lives (as opposed to those who lived before the Time Machines arrived, who lived exactly the same lives as their counterparts until the point at which the two timelines diverge, three years before the androids arrived).",
    "rank": "B Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",

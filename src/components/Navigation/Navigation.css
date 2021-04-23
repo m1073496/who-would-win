@@ -1,0 +1,61 @@
+.nav-links-container {
+  grid-column: 1 / 16;
+  grid-row: 7 / 8;
+  height: 70%;
+  align-self: flex-end;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.db-link {
+  grid-column: 1 / 2;
+  background-color: #D8DAF7;
+  color: white;
+  font-size: 20px;
+  align-self: flex-end;
+  line-height: 300%;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.yyh-link {
+  grid-column: 2 / 3;
+  background-color: #D8DAF7;
+  color: white;
+  font-size: 20px;
+  align-self: flex-end;
+  line-height: 300%;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.hxh-link {
+  grid-column: 3 / 4;
+  background-color: #D8DAF7;
+  color: white;
+  font-size: 20px;
+  align-self: flex-end;
+  line-height: 300%;
+  padding: 2px;
+  text-decoration: none;
+}
+
+.db-link:hover {
+  padding: 12px;
+  text-decoration: overline;
+}
+
+.yyh-link:hover {
+  padding: 12px;
+  text-decoration: overline;
+}
+
+.hxh-link:hover {
+  padding: 12px;
+  text-decoration: overline;
+}
+
+.selected {
+  padding: 12px;
+  background-color: #E5E9F9;
+}

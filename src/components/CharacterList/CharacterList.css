@@ -1,0 +1,10 @@
+.character-list-container {
+  background-color: #E5E9F9;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.character-name-item {
+  margin: 10px;
+}
