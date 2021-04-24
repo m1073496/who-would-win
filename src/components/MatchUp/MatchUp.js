@@ -40,6 +40,14 @@ class MatchUp extends Component {
     }
   }
 
+  findImage = (fighterNum) => {
+    if (Object.keys(fighterNum).length === 0) {
+      return image;
+    } else {
+      return images[`${fighterNum.image}`]['default'];
+    }
+  }
+
   render() {
     console.log("first Figther", this.state.firstFighter)
     console.log("second Figther", this.state.secondFighter)
@@ -51,7 +59,7 @@ class MatchUp extends Component {
           <Link to="/stats" className="first-fighter-box">
             <img
               className="first-fighter-box"
-              src={images[`${dbData.characters[10].image}`]['default']}
+              src={this.findImage(this.state.firstFighter)}
               alt=""
               onClick={ () => { this.props.getFighterStats(this.state.firstFighter) }}
             />
@@ -60,7 +68,7 @@ class MatchUp extends Component {
           <Link to="/stats" className="second-fighter-box">
             <img
               className="second-fighter-box"
-              src={image2}
+              src={this.findImage(this.state.secondFighter)}
               alt=""
               onClick={ () => this.props.getFighterStats(this.state.secondFighter) }
             />
