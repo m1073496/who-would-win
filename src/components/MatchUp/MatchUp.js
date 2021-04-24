@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { Route, Link } from "react-router-dom";
+import WinnerBar from "../WinnerBar/WinnerBar";
 import CharacterList from "../CharacterList/CharacterList"
 import Navigation from "../Navigation/Navigation";
 import Stats from "../Stats/Stats";
@@ -9,6 +10,17 @@ import image2 from './android18-main2.png';
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
+
+import black from '../../assets/black.png'
+
+function importAll(r) {
+  let images = {};
+  r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+  return images;
+}
+
+const images = importAll(require.context('../../assets', false, /\.(png|jpe?g|svg)$/));
+console.log(images)
 
 class MatchUp extends Component {
   constructor() {
@@ -35,10 +47,11 @@ class MatchUp extends Component {
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
+          <WinnerBar className="winner-bar" />
           <Link to="/stats" className="first-fighter-box">
             <img
               className="first-fighter-box"
-              src={image}
+              src={images[`${dbData.characters[10].image}`]['default']}
               alt=""
               onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
             />
