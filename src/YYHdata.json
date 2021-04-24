@@ -2,6 +2,7 @@
  "characters": [
   {
    "name": "Yusuke Urameshi",
+   "image": "yusuke.png",
    "summary": "Yusuke Urameshi (浦飯 幽助, Urameshi Yūsuke) is the main protagonist of the manga and anime series YuYu Hakusho. He is a Spirit Detective who is tasked with protecting Human World from various supernatural threats over the course of the series and his closest friends as well as greatest allies include Kuwabara, Kurama, Hiei, Keiko, Genkai, Koenma and Botan. One of his most notable traits is his desire to fight, which becomes more noticeable as the series progresses. Yusuke has been noted on many occasions to be rather unintelligent, and, at times, just plain stupid. However, as his teacher Genkai later notes, he can be a genius at fighting. Yusuke's desire to fight is more out of enjoyment of a good brawl, and surprisingly Yusuke doesn't like killing if he can avoid it. Another prominent trait of Yusuke's psyche is his sense of justice, as he doesn't tolerate evildoers and always has a firm resolve to capture or even beat them for the sake of doing the right thing.",
    "rank": "Upper S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
@@ -19,6 +20,7 @@
   },
   {
    "name": "Kazuma Kuwabara",
+   "image": "kuwabara.png",
    "summary": "Kazuma Kuwabara (桑原和真, Kuwabara Kazuma), more commonly known by his last name as Kuwabara, is one of the main protagonists of the series, along with Yusuke Urameshi, Kurama & Hiei. Thanks in part to his naturally high Spiritual Awareness, Kuawabara already possessed far more spiritual energy than most humans, which is best demonstrated by his ability to shape his raw energy into his signature Spirit Sword. Said energy would only increase in size through his training for both the Dark Tournament and later the clash with Sensui, where his overall power rose to A-Class levels upon witnessing the death of Yusuke.",
    "rank": "A Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
@@ -35,6 +37,7 @@
   },
   {
    "name": "Kurama",
+   "image": "kurama.png",
    "summary": "Yoko Kurama (妖狐蔵馬, lit. Yōko Kurama; in the English dub, Kurama the Yoko), also known as Shuichi Minamino (南野秀一, Minamino Shūichi translated as Southern Field and Excellence First, respectively), is one of the main protagonists in the anime/manga series of YuYu Hakusho. The word Yoko, despite being portrayed as a name in the dub, actually literally translates to demon fox in Japanese. Kurama is the most calculating, cunning and analytical member of the main characters and perhaps in the whole series. He is able to carefully look past his feelings and see the real situation at hand, which has been demonstrated on more than one occasion. He is extremely perceptive, able to quickly recognize the patterns and mistakes that his opponents make, which gives him an edge. In battle, while his preference is to concoct strategies based on deduction of his opponents' fighting abilities and style, his natural battle instincts are also highly tuned. ",
    "rank": "S-Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
@@ -54,6 +57,7 @@
   },
   {
    "name": "Hiei",
+   "image": "hiei2.png",
    "summary": "Hiei (飛影ひえい, Literally meaning: Flying Shadow) also known as, Jaganshi Hiei (Jaganshi is an epithet meaning Master of the Evil Eye), is a main character in the anime and manga series YuYu Hakusho by Yoshihiro Togashi. He is called Hiei of the Evil Eye in the Viz manga and Vincent in Filipino dub. Hiei prefers to keep his distance from others, so he often comes across as aloof and elusive. He has a rather cynical and even misanthropic view of the world around him, often belittling and mocking humans and their emotions and the significance they place on friendship and life.",
    "rank": "Upper S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
@@ -73,6 +77,7 @@
   },
   {
    "name": "Master Genkai",
+   "image": "genkai.png",
    "summary": "Genkai (幻海, Literally meaning: Sea of Apparitions) was the master of the spirit detective Yusuke Urameshi and Kazuma Kuwabara. Genkai was an old-fashioned woman with great strength and determination. She put her mind and body through extensive training to allow her to create and control the spirit wave orb, which contributed greatly to her rather cold and hard demeanor.",
    "rank": "B Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
@@ -89,6 +94,7 @@
   },
   {
    "name": "Jin",
+   "image": "jin.png",
    "summary": "Jin (陣) is a yōkai who makes his first appearance during the Dark Tournament Saga as part of Team Masho (named only in the English anime, Shadow Channelers in the English manga, and Team Mashotsukai in the original Japanese version), the team's true title being the Shinobi of Spirit World. Jin, following his team's theme of having elemental-based powers, is a master at controlling the air and wind that surrounds him. Jin is truly the strongest member of his team, but Risho was leader simply because of his intelligence and leadership skills. Jin was a former member of Team Masho and currently a friend and an ally of Yusuke Urameshi. ",
    "rank": "S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/S-Class",
@@ -104,6 +110,7 @@
  },
   {
    "name": "Chū",
+   "image": "chū.png",
    "summary": "Chū (酎,Chū) is an ally/friend of Yusuke Urameshi and the former leader of Team Rokuyukai during the Dark Tournament Saga. He was called Joe in the Filipino dub of the anime.",
    "rank": "S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/S-Class",
@@ -118,6 +125,7 @@
   },
   {
    "name": "Younger Toguro",
+   "image": "toguro.png",
    "summary": "Younger Toguro (戸愚呂弟 Toguro-otōto?), more commonly known as Toguro, is a major antagonist of Yu Yu Hakusho, He served as the final antagonist of the Spirit Detective Saga, and the main antagonist of the Dark Tournament Saga. He was the leader of both the Apparition Gang and Team Toguro, alongside his brother, Elder Toguro. He is also one of the archenemies of Yusuke Urameshi (alongside Suzaku, and Sensui).",
    "rank": "A Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/A_Class",
@@ -133,6 +141,7 @@
   },
   {
    "name": "Elder Toguro",
+   "image": "elder.png",
    "summary": "Elder Toguro (戸愚呂兄 Toguro (Ani)?) was a major antagonist during the Dark Tournament and the Chapter Black Sagas, as well as a minor one at the end of the Spirit Detective saga, making him the longest running villain of the series. Along with his younger brother, he plays the role of leader of the Apparition Gang, he is a member of Team Toguro, and a vital member of Sensui's crew.",
    "rank": "B Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
@@ -148,6 +157,7 @@
   },
   {
    "name": "Karasu",
+   "image": "karasu.png",
    "summary": "Karasu (鴉?) was a member of Team Toguro, during the events of the Dark Tournament. An unspecified number of years prior to the last Dark Tournament, Karasu was defeated by the Toguro Brothers in a fight, and was almost left for dead. Overwhelmed by his performance during the fight, the Toguro Brothers spared Karasu from death, humiliating the demon bomber in the process. As a means to reclaim his stolen pride, Karasu joined Team Toguro and fought alongside the brothers within the Dark Tournament, in hopes that he might some day become strong enough in order to kill them.",
    "rank": "Quest Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Quest_class",
@@ -164,6 +174,7 @@
   },
   {
    "name": "Bui",
+   "image": "bui.png",
    "summary": "Bui (武威?) is a former member of Team Toguro, during the events of the Dark Tournament Saga. Both Bui and Karasu had an equal hatred for Toguro, as both of them were defeated by him a long time ago before the events of the last Dark Tournament. This became the motivation for which the two of them kept training and improving their skills, so that one of them might some day be able to get back at Younger Toguro, and ultimately kill him. Bui had never openly mentioned this motive until his fight against Hiei.",
    "rank": "B Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
@@ -179,6 +190,7 @@
   },
   {
    "name": "Shinobu Sensui",
+   "image": "sensui.png",
    "summary": "Shinobu Sensui (仙水忍, Sensui Shinobu) was a very powerful human, and noted himself to have more than ten times the spiritual energy than Yusuke in their fight. When Sensui started releasing his Sacred Energy, Hiei mentions that if Sensui was a demon, his energy levels would have been S-class, even though he was still suppressing his true power and openly saying that he was using less than half. Sensui's power was so great, that he held a distinct advantage over Yusuke, even in his demon form. According to Raizen, Yusuke's demon ancestor and the most powerful of the Three Kings, Sensui would've eventually killed Yusuke had he not interfered, despite that Yusuke had been revived as a mazoku. Additionally, it should be noted that these judgments of Sensui's power were made at a time during which he was so ill that he was judged to have about two weeks left to live. Sensui is also shown to have very sharp senses. Despite Sensui having more than enough power to overwhelm Yusuke, Sensui's instincts were hesitant to do so. It was revealed the reason behind Sensui's hesitation was because his instincts sensed Yusuke's dormant demon blood and knew killing Yusuke would trigger his rebirth.",
    "rank": "S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
@@ -196,6 +208,7 @@
   },
   {
    "name": "Lord Raizen",
+   "image": "raizen.png",
    "summary": "Raizen (雷禅, Raizen) was part of a special type of elite and powerful demon called a Mazoku (loosely meaning the \"Tribe of Devils\", translated as Demonkin in FUNimation's subtitles of the original Japanese anime.). He was also one of The Three Kings of Makai and Yusuke Urameshi's ancestral father. In the anime, prior to Yusuke's departure to Demon World, Raizen is called Toshin by Hokushin. As this can be translated to mean Battle God, it is likely a nickname rather than a surname. He is also called the Master of War or Warrior God depending on the translation.",
    "rank": "Upper S",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
@@ -214,6 +227,7 @@
   },
   {
    "name": "Lord Mukuro",
+   "image": "mukuro.png",
    "summary": "Mukuro (軀) is a powerful demon who lives in demon world. She is part of a triumvirate of upper S-class demons known as the The Three Kings, who rule over Demon World. When Mukuro first appeared, she came off as having a very mysterious personality. During her years as a warrior, few knew that Mukuro was female. It is however, interesting to note that the specific reasoning why she decided to pass herself off as the opposite gender is subject to speculation. In a shocking turn-around, she made a point of revealing her gender at the start of the demon world tournament. Raizen describes Mukuro as a traditionalist and an isolationist and notes that she likes Makai just the way it is and believes it should remain in its pristine, untouched and chaos-ridden state.",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
    "moves": [
@@ -230,6 +244,7 @@
   },
   {
    "name": "Lord Yomi",
+   "image": "yomi.png",
    "summary": "He is the main antagonist of the Three Kings Saga and the final antagonist of the series. Despite never begging for mercy in battle, after losing his sight, Yomi is a calm person, who thinks before he acts even in battle, which is arguably what contributed most to his growing strength. In the English Dub, he tells Kurama that he did his best to model himself after him; this is true enough as Yomi takes the time and patience to gather intel to devise backup plans. Even Kurama notes that Yomi took a great deal of preparation to blackmail him into an alliance.",
    "rank": "Upper S",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
