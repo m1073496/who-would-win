@@ -1,7 +1,8 @@
 import { Component } from "react";
-import { Route } from "react-router-dom";
+import { Route, Link } from "react-router-dom";
 import CharacterList from "../CharacterList/CharacterList"
 import Navigation from "../Navigation/Navigation";
+import Stats from "../Stats/Stats";
 import './MatchUp.css';
 import image from './android17-main1.png';
 import image2 from './android18-main2.png';
@@ -30,27 +31,34 @@ class MatchUp extends Component {
   }
 
   render() {
-    console.log(this.state.secondFighter.image)
     return (
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
+          <Link to="/stats" className="first-fighter-box">
             <img
               className="first-fighter-box"
               src={image}
               alt=""
+              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
             />
-            {/*}<button className="first-stats">See stats</button>*/}
-            <div className="vs">VS</div>
+          </Link>
+          <div className="vs">VS</div>
+          <Link to="/stats" className="second-fighter-box">
             <img
               className="second-fighter-box"
               src={image2}
               alt=""
+              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
             />
-            {/*<button className="second-stats">See stats</button>*/}
-            <p className="choose-fighter">choose your fighters...</p>
-            <Navigation className="nav-bar"/>
+          </Link>
+          <p className="choose-fighter">choose your fighters...</p>
+          <Navigation className="nav-bar"/>
         </main>
+        <Route
+          path="/stats">
+          <Stats fighter={this.state.firstFighter} />
+        </Route>
         <Route
           path="/matchUp/DB">
           <CharacterList characterSet={ this.state.characterData[0] } selectFighters={ this.selectFighters } />

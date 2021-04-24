@@ -41,7 +41,7 @@
    "moves": [
      "Rose Whip",
       "Rose Whip Thorn Wheel",
-      "Vast Intellective Approach // Unparalleled Precision",
+      "Vast Intellective Approach / Unparalleled Precision",
       "Demonic Plant Manipulation",
       "Rose Whiplash",
       "Petals and Thorns",
@@ -58,13 +58,13 @@
    "rank": "Upper S Class",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
    "moves": [
-     "Elemental Resistance",
+      "Jagan Eye",
+      "Dragon of the Darkness Flame",
+      "Elemental Resistance",
       "Enhanced Strength",
       "Super Speed",
       "Afterimage",
       "Master Swordsman",
-      "Jagan Eye",
-      "Dragon of the Darkness Flame",
       "Fist of the Mortal Flame",
       "Sword of the Darkness Flame",
       "Dragon Absorption"
@@ -114,7 +114,7 @@
      "Knife Edge Death Match",
      "Barrier"
    ],
-   "fighting_style": "Chu gains additional strength to his already incredible power when he consumes alcohol most notably the Ogre Killer drink. The more drunk the fighter is, the more unpredictable his movements and attacks become, making him a deadly opponent. Chū possesses extreme physical strength, especially in his fists and head, which was able to shatter a mountain. It is possible Chū uses his demon energy to enhance his strength in a manner similar to Yusuke's Spirit Punches, only focusing it on his head in his case. He is also rather fast, quickly punching Yusuke a few times while dodging some of the latter's attacks at the same time."
+   "fighting_style": "Chū gains additional strength to his already incredible power when he consumes alcohol most notably the Ogre Killer drink. The more drunk the fighter is, the more unpredictable his movements and attacks become, making him a deadly opponent. Chū possesses extreme physical strength, especially in his fists and head, which was able to shatter a mountain. It is possible Chū uses his demon energy to enhance his strength in a manner similar to Yusuke's Spirit Punches, only focusing it on his head in his case. He is also rather fast, quickly punching Yusuke a few times while dodging some of the latter's attacks at the same time."
   },
   {
    "name": "Younger Toguro",
@@ -195,7 +195,7 @@
    "fighting_style": "Resshūken (裂蹴拳, literally translated as Fissure Kick Fist; VIZ; Lightning Kickboxing): An elegant fighting style that is only available to fighters that have mastered all other forms of martial arts. This style is considered to be the strongest, most elegant, school of martial arts in existence and relies on fast footwork in order to focus on fending off enemy attacks with the arms and using the legs to counterattack with powerful kicks. Genkai was the one to identify and name this fighting style during the first confrontation between Sensui and Yusuke. The English dubs pronounce this as Reshuyuken. As a result of his training for this martial art, his physique is extremely well developed, to the point where Yusuke compared hitting him to punching a tractor tire. At one point, after punching Sensui repeatedly in the stomach, Yusuke had to take a somewhat comical time-out while Sensui was down to nurse his battered hand."
   },
   {
-   "name": "Raizen",
+   "name": "Lord Raizen",
    "summary": "Raizen (雷禅, Raizen) was part of a special type of elite and powerful demon called a Mazoku (loosely meaning the \"Tribe of Devils\", translated as Demonkin in FUNimation's subtitles of the original Japanese anime.). He was also one of The Three Kings of Makai and Yusuke Urameshi's ancestral father. In the anime, prior to Yusuke's departure to Demon World, Raizen is called Toshin by Hokushin. As this can be translated to mean Battle God, it is likely a nickname rather than a surname. He is also called the Master of War or Warrior God depending on the translation.",
    "rank": "Upper S",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
@@ -213,7 +213,7 @@
    "fighting_style": "Although Raizen's fights during the series have never shown his true power, it is admitted by many characters that Raizen is the most powerful fighter in the series. After abstaining from eating humans for hundreds of years, and losing more of his power as a result, his strength was still great enough so that he could rival Yomi and Mukuro, who both dared not directly antagonize Raizen or each other without caution lest the surviving King easily falls prey to the remaining third, thus keeping the war at a three way stalemate. It has been said that, in his prime, Raizen was strong enough to shake the earth while powering up."
   },
   {
-   "name": "Mukuro",
+   "name": "Lord Mukuro",
    "summary": "Mukuro (軀) is a powerful demon who lives in demon world. She is part of a triumvirate of upper S-class demons known as the The Three Kings, who rule over Demon World. When Mukuro first appeared, she came off as having a very mysterious personality. During her years as a warrior, few knew that Mukuro was female. It is however, interesting to note that the specific reasoning why she decided to pass herself off as the opposite gender is subject to speculation. In a shocking turn-around, she made a point of revealing her gender at the start of the demon world tournament. Raizen describes Mukuro as a traditionalist and an isolationist and notes that she likes Makai just the way it is and believes it should remain in its pristine, untouched and chaos-ridden state.",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
    "moves": [
@@ -229,7 +229,7 @@
    "fighting_style": "In both the manga and the anime, Mukuro's power depends entirely on her state of mind. In the anime, it seems that her power is directly-proportional to how much hatred she feels. As stated by Kirin, Mukuro utilized at most, half of her maximum strength in the Demon World Tournament. Thus, Mukuro at her peak was at least the 2nd most powerful character in the series, with Raizen being the only one capable of being stronger than her. Mukuro's ruthlessness as a ruler and merciless brutality in battle strike fear in the minds of countless apparitions across the plains of Makai. Her hard-earned reputation alone devastates the composure of her opponents. Many powerful S-Class Demons would rather shamelessly admit defeat than face her in combat. Although Mukuro is primarily a hand-to-hand combatant, she appears in a brief flashback to be using a sword, although she is almost never seen carrying one around. She demonstrates the ability to cut through the entirety of the third dimension. Whatever comes into contact with the slashes will be cut as well. "
   },
   {
-   "name": "Yomi",
+   "name": "Lord Yomi",
    "summary": "He is the main antagonist of the Three Kings Saga and the final antagonist of the series. Despite never begging for mercy in battle, after losing his sight, Yomi is a calm person, who thinks before he acts even in battle, which is arguably what contributed most to his growing strength. In the English Dub, he tells Kurama that he did his best to model himself after him; this is true enough as Yomi takes the time and patience to gather intel to devise backup plans. Even Kurama notes that Yomi took a great deal of preparation to blackmail him into an alliance.",
    "rank": "Upper S",
    "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",

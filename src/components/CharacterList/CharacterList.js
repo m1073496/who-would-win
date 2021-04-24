@@ -3,13 +3,11 @@ import "./CharacterList.css";
 
 const CharacterList = ({ characterSet, selectFighters }) => {
 
-  // const nameList = () => {
-  //   return characterSet.characters.map(character => {
+  // const nameList = characterSet.characters.map(character => {
   //     return (
   //       <li className="character-name-item" >{character.name}</li>
   //     )
-  //   })
-  // }
+  //   }
 
   const chooseFighter = (event) => {
     const fighter = characterSet.characters.find(character => character.name === event.target.value);
