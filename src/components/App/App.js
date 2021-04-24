@@ -1,10 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
 import { Route, Link } from "react-router-dom";
 import MatchUp from "../MatchUp/MatchUp";
 import Stats from "../Stats/Stats";
 import './App.css';
 
-const App = () => {
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      fighterStats: {}
+    }
+  }
+
+getFighterStats = (fighter) => {
+  this.setState({ fighterStats: fighter })
+}
+
+  render() {
     return (
       <main className="App">
         <Route exact path="/">
@@ -13,15 +25,17 @@ const App = () => {
         </Route>
         <Route
           path="/matchUp">
-          <MatchUp />
+          <MatchUp getFighterStats={ this.getFighterStats } />
         </Route>
         <Route
           path="/stats">
-          <Stats />
+          <Stats fighter={ this.state.fighterStats }/>
         </Route>
+
       </main>
     );
   }
+}
 
 
 

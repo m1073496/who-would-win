@@ -35,11 +35,12 @@ class MatchUp extends Component {
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
-          <Link to="/stats">
+          <Link to="/stats" fighter={ this.state.firstFighter }>
             <img
               className="first-fighter-box"
               src={image}
               alt=""
+              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
             />
           </Link>
           {/*}<button className="first-stats">See stats</button>*/}
@@ -53,6 +54,10 @@ class MatchUp extends Component {
           <p className="choose-fighter">choose your fighters...</p>
           <Navigation className="nav-bar"/>
         </main>
+        <Route
+          path="/stats">
+          <Stats fighter={this.state.firstFighter} />
+        </Route>
         <Route
           path="/matchUp/DB">
           <CharacterList characterSet={ this.state.characterData[0] } selectFighters={ this.selectFighters } />
