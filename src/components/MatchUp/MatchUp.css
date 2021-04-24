@@ -18,14 +18,14 @@
 
 .vs {
   grid-column: 7 / 10;
-  grid-row: 3 / 4;
+  grid-row: 4 / 6;
   margin: auto;
   font-size: 70px;
 }
 
 .first-fighter-box {
   grid-column: 2 / 7;
-  grid-row: 3 / 6;
+  grid-row: 3 / 7;
   height: 100%;
   width: 100%;
   /* background-color: black; */
@@ -39,7 +39,7 @@
 
 .second-fighter-box {
   grid-column: 10 / 15;
-  grid-row: 3 / 6;
+  grid-row: 3 / 7;
   height: 100%;
   width: 100%;
   /* background-color: black; */

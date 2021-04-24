@@ -33,16 +33,16 @@ class MatchUp extends Component {
   }
 
   selectFighters = (fighter) => {
-    if (this.state.firstFighter.name) {
-      this.setState({ secondFighter: fighter }, () => {
-      })
-    } else {
-      this.setState({ firstFighter: fighter }, () => {
-      })
+    if (Object.keys(this.state.firstFighter).length === 0) {
+      this.setState({ firstFighter: fighter })
+    } else if (Object.keys(this.state.secondFighter).length === 0) {
+      this.setState({ secondFighter: fighter })
     }
   }
 
   render() {
+    console.log("first Figther", this.state.firstFighter)
+    console.log("second Figther", this.state.secondFighter)
     return (
       <div>
         <main className="matchup-container">
@@ -53,7 +53,7 @@ class MatchUp extends Component {
               className="first-fighter-box"
               src={images[`${dbData.characters[10].image}`]['default']}
               alt=""
-              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
+              onClick={ () => { this.props.getFighterStats(this.state.firstFighter) }}
             />
           </Link>
           <div className="vs">VS</div>
