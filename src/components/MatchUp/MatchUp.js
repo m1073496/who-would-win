@@ -35,7 +35,7 @@ class MatchUp extends Component {
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
-          <Link to="/stats" fighter={ this.state.firstFighter }>
+          <Link to="/stats" className="first-fighter-box">
             <img
               className="first-fighter-box"
               src={image}
@@ -43,14 +43,15 @@ class MatchUp extends Component {
               onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
             />
           </Link>
-          {/*}<button className="first-stats">See stats</button>*/}
           <div className="vs">VS</div>
-          <img
-            className="second-fighter-box"
-            src={image2}
-            alt=""
-          />
-          {/*<button className="second-stats">See stats</button>*/}
+          <Link to="/stats" className="second-fighter-box">
+            <img
+              className="second-fighter-box"
+              src={image2}
+              alt=""
+              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
+            />
+          </Link>
           <p className="choose-fighter">choose your fighters...</p>
           <Navigation className="nav-bar"/>
         </main>
