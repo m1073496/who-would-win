@@ -62,7 +62,7 @@ class MatchUp extends Component {
               className="second-fighter-box"
               src={image2}
               alt=""
-              onClick={ () => this.props.getFighterStats(this.state.firstFighter) }
+              onClick={ () => this.props.getFighterStats(this.state.secondFighter) }
             />
           </Link>
           <p className="choose-fighter">choose your fighters...</p>
