@@ -12,10 +12,12 @@ const WinnerBar = ({ fighterss }) => {
       let color;
       if (i === 0) {
         color = "#13FF9D";
-        percentage = Math.floor(Math.random() * 101)
+        percentage = Math.floor(Math.random() * 71) + 20;
+        console.log(percentage)
       } else {
         color = "#14FFF9";
         percentage = 100 - percentage;
+        console.log(percentage)
       }
       accu.push({ id: i, text: currentFighter.name, color: color, percentage: percentage })
 

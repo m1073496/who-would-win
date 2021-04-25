@@ -10,8 +10,7 @@ import image2 from './android18-main2.png';
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
-
-import black from '../../assets/black.png'
+import clearButton from '../../assets/close.svg';
 
 function importAll(r) {
   let images = {};
@@ -20,7 +19,6 @@ function importAll(r) {
 }
 
 const images = importAll(require.context('../../assets', false, /\.(png|jpe?g|svg)$/));
-console.log(images)
 
 class MatchUp extends Component {
   constructor() {
@@ -48,9 +46,16 @@ class MatchUp extends Component {
     }
   }
 
+  clearFighter = (fighter) => {
+    if (fighter === this.state.firstFighter) {
+      this.setState({ firstFighter: {} })
+    } else {
+      this.setState({ secondFighter: {} })
+    }
+  }
+
   render() {
-    console.log("first Figther", this.state.firstFighter)
-    console.log("second Figther", this.state.secondFighter)
+    console.log(this.state.firstFighter)
     return (
       <div>
         <main className="matchup-container">
@@ -64,6 +69,13 @@ class MatchUp extends Component {
               onClick={ () => { this.props.getFighterStats(this.state.firstFighter) }}
             />
           </Link>
+          { this.state.firstFighter.name &&
+            <img
+              className="clear-first-button"
+              src={clearButton}
+              onClick={ () => this.clearFighter(this.state.firstFighter) }
+            />
+          }
           <div className="vs">VS</div>
           <Link to="/stats" className="second-fighter-box">
             <img
@@ -73,6 +85,13 @@ class MatchUp extends Component {
               onClick={ () => this.props.getFighterStats(this.state.secondFighter) }
             />
           </Link>
+          { this.state.secondFighter.name &&
+            <img
+              className="clear-second-button"
+              src={clearButton}
+              onClick={ () => this.clearFighter(this.state.secondFighter) }
+            />
+          }
           <p className="choose-fighter">choose your fighters...</p>
           <Navigation className="nav-bar"/>
         </main>

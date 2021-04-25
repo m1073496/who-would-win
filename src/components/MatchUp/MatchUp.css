@@ -37,6 +37,15 @@
   box-shadow: -50px 20px 20px 20px #13FF9D;
 }
 
+.clear-first-button {
+  grid-column: 5 / 6;
+  grid-row: 3 / 4;
+  height: 20px;
+  width: 20px;
+  margin-left: 80%;
+  cursor: pointer;
+}
+
 .second-fighter-box {
   grid-column: 10 / 15;
   grid-row: 3 / 7;
@@ -49,6 +58,15 @@
   border: 2px solid #14FFF9;
   border-radius: 50%;
   box-shadow: 50px 20px 20px 20px #14FFF9;
+}
+
+.clear-second-button {
+  grid-column: 14 / 15;
+  grid-row: 3 / 4;
+  height: 20px;
+  width: 20px;
+  margin-left: 80%;
+  cursor: pointer;
 }
 
 .first-stats {
