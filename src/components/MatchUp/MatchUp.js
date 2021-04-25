@@ -7,6 +7,8 @@ import Stats from "../Stats/Stats";
 import './MatchUp.css';
 import image from './android17-main1.png';
 import image2 from './android18-main2.png';
+import secondKamehameha from '../../assets/trunks.gif';
+import firstKamehameha from '../../assets/buu.gif';
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
@@ -39,10 +41,12 @@ class MatchUp extends Component {
   }
 
   findImage = (fighterNum) => {
-    if (Object.keys(fighterNum).length === 0) {
-      return image;
-    } else {
+    if (Object.keys(fighterNum).length) {
       return images[`${fighterNum.image}`]['default'];
+    } else if (this.state.firstFighter === fighterNum){
+      return firstKamehameha;
+    } else {
+      return secondKamehameha;
     }
   }
 
@@ -61,7 +65,7 @@ class MatchUp extends Component {
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
           {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]}/> }
-          <Link to="/stats" className="first-fighter-box">
+          <Link to="/stats" className="first-fighter-link">
             <img
               className="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
@@ -76,8 +80,11 @@ class MatchUp extends Component {
               onClick={ () => this.clearFighter(this.state.firstFighter) }
             />
           }
+          { this.state.firstFighter.name && this.state.secondFighter.name &&
+            <button className="first-fighter-vote">VOTE</button>
+          }
           <div className="vs">VS</div>
-          <Link to="/stats" className="second-fighter-box">
+          <Link to="/stats" className="second-fighter-link">
             <img
               className="second-fighter-box"
               src={this.findImage(this.state.secondFighter)}
@@ -91,6 +98,9 @@ class MatchUp extends Component {
               src={clearButton}
               onClick={ () => this.clearFighter(this.state.secondFighter) }
             />
+          }
+          { this.state.firstFighter.name && this.state.secondFighter.name &&
+            <button className="second-fighter-vote">VOTE</button>
           }
           <p className="choose-fighter">choose your fighters...</p>
           <Navigation className="nav-bar"/>
