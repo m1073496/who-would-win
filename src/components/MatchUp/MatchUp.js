@@ -63,8 +63,8 @@ class MatchUp extends Component {
     this.setState({ vote: fighter })
   }
 
-  getCharacterStats = (fighter) => {
-    this.props.getFighterStats(this.state.firstFighter, this.state.firstQuotes)
+  getCharacterStats = (fighter, image) => {
+    this.props.getFighterStats(fighter, image)
   }
 
   componentDidMount = () => {
@@ -121,7 +121,7 @@ class MatchUp extends Component {
               className="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
               alt=""
-              onClick={ () => { this.getCharacterStats(this.state.firstFighter) } }
+              onClick={ () => { this.getCharacterStats(this.state.firstFighter, this.findImage(this.state.firstFighter)) } }
             />
           </Link>
           { this.state.firstFighter.name &&

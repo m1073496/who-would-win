@@ -1,12 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Stats.css";
-import image from '../MatchUp/android18-main2.png';
-import backArrow from '../../assets/left-arrow.svg';
 
-const Stats = ({ fighter }, { quote }) => {
-
-  console.log(quote)
+const Stats = ({ fighter, image }) => {
 
   if (fighter.name) {
     const allMoves = fighter.moves.map(move => {
@@ -20,9 +16,10 @@ const Stats = ({ fighter }, { quote }) => {
 
         <h1 className="title">Stats</h1>
 
-        <Link className="image" to="/matchUp">
+        <Link className="link" to="/matchUp">
           <p className="return-text">return to fight...</p>
           <img
+            className="image"
             src={ image }
           />
         </Link>
@@ -31,7 +28,7 @@ const Stats = ({ fighter }, { quote }) => {
         <div className="first-column">
           <p>{ fighter.summary }</p>
           <p>{ fighter.rank }</p>
-          <p>{ quote }</p>
+          <p>{ fighter.summary }</p>
         </div>
         <div className="second-column">ABILITIES: { allMoves }</div>
 

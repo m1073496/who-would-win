@@ -8,12 +8,13 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      fighterStats: {}
+      fighterStats: {},
+      image: ''
     }
   }
 
-getFighterStats = (fighter) => {
-  this.setState({ fighterStats: fighter })
+getFighterStats = (fighter, image) => {
+  this.setState({ fighterStats: fighter, image: image })
 }
 
   render() {
@@ -25,13 +26,12 @@ getFighterStats = (fighter) => {
         </Route>
         <Route
           path="/matchUp">
-          <MatchUp getFighterStats={ this.getFighterStats } />
+          <MatchUp getFighterStats={ this.getFighterStats }/>
         </Route>
         <Route
           path="/stats">
-          <Stats fighter={ this.state.fighterStats }/>
+          <Stats fighter={ this.state.fighterStats } image={ this.state.image }/>
         </Route>
-
       </main>
     );
   }

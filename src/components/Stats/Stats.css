@@ -17,7 +17,7 @@
   border: 1px solid grey;
 }
 
-.image {
+.link {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
   height: 75%;
@@ -28,13 +28,22 @@
   text-decoration: none;
 }
 
+.image {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  height: 90%;
+  width: 55%;
+  background-position: top;
+  text-decoration: none;
+}
+
 .return-text {
   color: black;
   text-align: left;
   padding-left: 5%;
 }
 
-.image:hover {
+.link:hover {
   background-color: yellow;
   border-top: 1px solid grey;
 }
