@@ -143,7 +143,7 @@ class MatchUp extends Component {
               className="second-fighter-box"
               src={this.findImage(this.state.secondFighter)}
               alt=""
-              onClick={ () => this.props.getFighterStats(this.state.secondFighter) }
+              onClick={ () => { this.getCharacterStats(this.state.secondFighter, this.findImage(this.state.secondFighter)) } }
             />
           </Link>
           { this.state.secondFighter.name &&
