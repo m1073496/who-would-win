@@ -28,7 +28,8 @@ class MatchUp extends Component {
     this.state = {
       characterData: [dbData, yyhData, hxhData],
       firstFighter: {},
-      secondFighter: {}
+      secondFighter: {},
+      vote: {}
     }
   }
 
@@ -58,13 +59,17 @@ class MatchUp extends Component {
     }
   }
 
+  vote = (fighter) => {
+    this.setState({ vote: fighter })
+  }
+
   render() {
     console.log(this.state.firstFighter)
     return (
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
-          {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]}/> }
+          {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
           <Link to="/stats" className="first-fighter-link">
             <img
               className="first-fighter-box"
@@ -81,7 +86,10 @@ class MatchUp extends Component {
             />
           }
           { this.state.firstFighter.name && this.state.secondFighter.name &&
-            <button className="first-fighter-vote">VOTE</button>
+            <button
+            className="first-fighter-vote"
+            onClick={ () => this.vote(this.state.firstFighter) }
+            >VOTE</button>
           }
           <div className="vs">VS</div>
           <Link to="/stats" className="second-fighter-link">
