@@ -55,7 +55,7 @@ class MatchUp extends Component {
       <div>
         <main className="matchup-container">
           <h1 className="header">Who Would Win?</h1>
-          <WinnerBar className="winner-bar" />
+          {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]}/> }
           <Link to="/stats" className="first-fighter-box">
             <img
               className="first-fighter-box"
