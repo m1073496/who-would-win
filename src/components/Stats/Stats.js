@@ -4,7 +4,9 @@ import "./Stats.css";
 import image from '../MatchUp/android18-main2.png';
 import backArrow from '../../assets/left-arrow.svg';
 
-const Stats = ({ fighter }) => {
+const Stats = ({ fighter }, { quote }) => {
+
+  console.log(quote)
 
   if (fighter.name) {
     const allMoves = fighter.moves.map(move => {
@@ -29,7 +31,7 @@ const Stats = ({ fighter }) => {
         <div className="first-column">
           <p>{ fighter.summary }</p>
           <p>{ fighter.rank }</p>
-          <p>{ fighter.fighting_style }</p>
+          <p>{ quote }</p>
         </div>
         <div className="second-column">ABILITIES: { allMoves }</div>
 

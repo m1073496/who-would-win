@@ -4,9 +4,8 @@ import WinnerBar from "../WinnerBar/WinnerBar";
 import CharacterList from "../CharacterList/CharacterList"
 import Navigation from "../Navigation/Navigation";
 import Stats from "../Stats/Stats";
+// import { getQuotes } from "../../API-calls.js"
 import './MatchUp.css';
-import image from './android17-main1.png';
-import image2 from './android18-main2.png';
 import secondKamehameha from '../../assets/trunks.gif';
 import firstKamehameha from '../../assets/buu.gif';
 import yyhData from '../../YYHdata.json';
@@ -29,7 +28,8 @@ class MatchUp extends Component {
       characterData: [dbData, yyhData, hxhData],
       firstFighter: {},
       secondFighter: {},
-      vote: {}
+      vote: {},
+      quotes: []
     }
   }
 
@@ -63,8 +63,54 @@ class MatchUp extends Component {
     this.setState({ vote: fighter })
   }
 
+  getCharacterStats = (fighter) => {
+    this.props.getFighterStats(this.state.firstFighter, this.state.firstQuotes)
+  }
+
+  componentDidMount = () => {
+
+    let charactersWithQuotes = [
+      "goku",
+      "vegeta",
+      "android",
+      "krillin",
+      "frieza",
+      "piccolo",
+      "goku black",
+      "trunks",
+      "urameshi",
+      "kuwabara",
+      "kurama",
+      "hiei",
+      "genkai",
+      "karasu",
+      "sensui",
+      "gon freecss",
+      "killua",
+      "leorio",
+      "kurapika",
+      "netero",
+      "meruem",
+      "hisoka",
+      "biscuit"
+    ]
+
+
+    // let allQuotes = charactersWithQuotes.reduce((accu, currentName) => {
+    //       fetch(`https://animechan.vercel.app/api/quotes/character?name=${currentName}`)
+    //         .then(response => response.json())
+    //         .then(data => accu.push(data))
+    //     console.log(accu)
+    //     return accu;
+    //   }, []);
+    //
+    //
+    // this.setState({ quotes: allQuotes });
+    // localStorage.setItem('quotes', allQuotes);
+    // console.log(this.state.quotes)
+  }
+
   render() {
-    console.log(this.state.firstFighter)
     return (
       <div>
         <main className="matchup-container">
@@ -75,7 +121,7 @@ class MatchUp extends Component {
               className="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
               alt=""
-              onClick={ () => { this.props.getFighterStats(this.state.firstFighter) }}
+              onClick={ () => { this.getCharacterStats(this.state.firstFighter) } }
             />
           </Link>
           { this.state.firstFighter.name &&
