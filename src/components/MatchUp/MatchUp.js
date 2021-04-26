@@ -69,7 +69,7 @@ class MatchUp extends Component {
     return (
       <div>
         <main className="matchup-container" data-cy="matchup-container">
-          <h1 className="header" data-cy="header">Who Would Win?</h1>
+          <header className="header" data-cy="header">Who Would Win?</header>
           {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" selectedFighters={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
           <Link to="/stats" className="first-fighter-link">
             <img
