@@ -32,13 +32,14 @@ header {
   grid-column: 3 / 4;
   grid-row: 3 / 4;
   height: 100%;
-  width: 80%;
+  width: 100%;
   background-color: white;
   border: 5px double black;
   z-index: 2;
   cursor: pointer;
   vertical-align: bottom;
   font-family: 'Unica One', cursive;
+  font-size: 30px;
 }
 
 .fight-button:hover {
