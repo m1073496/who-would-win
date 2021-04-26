@@ -25,8 +25,10 @@ getFighterStats = (fighter, image) => {
 }
 
 getQuote = (fighterString, fighterName) => {
-  fetch(`https://animechan.vercel.app/api/quotes/character?name=${fighterName}`)
-    .then(response => response.json())
+  fetch(`https://animechan.vercel.app/api/quotes/character?nae=${fighterName}`)
+    .then(response => {
+      console.log(response);
+      return response.json()})
     .then(data => {
       if (fighterString === 'firstFighter') {
         this.setState({ firstQuotes: data })

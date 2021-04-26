@@ -150,4 +150,67 @@ describe('Who Would Win', () => {
 
   });
 
+  describe('Stats View', () => {
+
+    beforeEach(() => {
+      cy.get('[data-cy=fight-button]').click();
+      cy.get('[data-cy=db-link]').click();
+    });
+
+    it(`Should display a selected character's stats`, () => {
+      cy.get('button[value="Goku"]').click();
+      cy.get('button[value="Vegeta"]').click();
+
+      cy.get('img[class=first-fighter-box]').click();
+
+      cy.get('[data-cy=stats-container]').should('exist');
+      cy.get('[data-cy=title]').contains('Stats');
+
+      cy.fixture('/DBdata.json').then((data) => {
+          cy.get('p').contains(`${data.characters[0].summary}`);
+          cy.get('p').contains(data.characters[0].rank);
+          cy.get('p').contains(data.characters[0].fighting_style);
+
+          data.characters[0].moves.forEach(move => {
+            cy.get('div').contains(move);
+          });
+      });
+
+    });
+
+    it('should not render a quote if network request was bad', () => {
+      cy.intercept({
+        method: 'GET',
+        url: 'https://animechan.vercel.app/api/quotes/character?name=$Goku'
+      },
+      {
+        ok: false,
+        redirected: false,
+        status: 404,
+        statusText: "",
+        type: "cors",
+        url: "https://animechan.vercel.app/api/quotes/character?nae=Goku"
+      });
+      cy.get('button[value="Goku"]').click();
+      cy.get('button[value="Vegeta"]').click();
+
+      cy.get('img[class=first-fighter-box]').click();
+      cy.get('p[class="quote"]').should('contain', '');
+
+    });
+
+    it('Should provide a way to navigate back to Match Up view', () => {
+      cy.get('button[value="Goku"]').click();
+      cy.get('button[value="Vegeta"]').click();
+
+      cy.get('img[class=first-fighter-box]').click();
+
+      cy.get('a[class="link"]').click();
+      cy.get('[data-cy=matchup-container]').should('exist');
+      cy.get('[data-cy=home-view]').should('not.exist');
+      cy.get('[data-cy=stats-container]').should('not.exist');
+    });
+
+  });
+
 });
