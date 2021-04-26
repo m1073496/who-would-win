@@ -5,6 +5,7 @@
   align-self: flex-end;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  font-family: 'Unica One', cursive;
 }
 
 .db-link {

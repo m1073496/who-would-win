@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 50px;
+  font-family: 'Unica One', cursive;
 }
 
 .character-name-item {
@@ -11,7 +12,6 @@
   background: none;
   height: 50px;
   font-size: 20px;
-  font-family: 'Luckiest Guy', cursive;
 }
 
 .character-name-item:hover {

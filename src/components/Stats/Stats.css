@@ -3,6 +3,7 @@
   grid-template-columns: 45% 27.5% 27.5%;
   grid-template-rows: 10% 90%;
   height: 100vh;
+  font-family: 'Unica One', cursive;
 }
 
 .title {
