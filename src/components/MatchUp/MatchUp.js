@@ -8,6 +8,7 @@ import Stats from "../Stats/Stats";
 import './MatchUp.css';
 import secondKamehameha from '../../assets/trunks.gif';
 import firstKamehameha from '../../assets/buu.gif';
+import funnyBuu from '../../assets/funny-boo.png';
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
@@ -28,8 +29,7 @@ class MatchUp extends Component {
       characterData: [dbData, yyhData, hxhData],
       firstFighter: {},
       secondFighter: {},
-      vote: {},
-      quotes: []
+      vote: {}
     }
   }
 
@@ -45,9 +45,9 @@ class MatchUp extends Component {
     if (Object.keys(fighterNum).length) {
       return images[`${fighterNum.image}`]['default'];
     } else if (this.state.firstFighter === fighterNum){
-      return firstKamehameha;
+      return funnyBuu;
     } else {
-      return secondKamehameha;
+      return funnyBuu;
     }
   }
 
@@ -63,10 +63,6 @@ class MatchUp extends Component {
     this.setState({ vote: fighter })
   }
 
-  getCharacterStats = (fighter, image) => {
-    this.props.getFighterStats(fighter, image)
-  }
-
   componentDidMount = () => {
 
     let charactersWithQuotes = [
@@ -79,20 +75,20 @@ class MatchUp extends Component {
       "goku black",
       "trunks",
       "urameshi",
-      "kuwabara",
-      "kurama",
-      "hiei",
-      "genkai",
-      "karasu",
-      "sensui",
-      "gon freecss",
-      "killua",
-      "leorio",
-      "kurapika",
-      "netero",
-      "meruem",
-      "hisoka",
-      "biscuit"
+      // "kuwabara",
+      // "kurama",
+      // "hiei",
+      // "genkai",
+      // "karasu",
+      // "sensui",
+      // "gon freecss",
+      // "killua",
+      // "leorio",
+      // "kurapika",
+      // "netero",
+      // "meruem",
+      // "hisoka",
+      // "biscuit"
     ]
 
 
@@ -103,7 +99,35 @@ class MatchUp extends Component {
     //     console.log(accu)
     //     return accu;
     //   }, []);
+
+    // fetch(`https://animechan.vercel.app/api/quotes/character?name=goku`)
+    //   .then(response => response.json())
+    //   .then(data => console.log(data))
+
+
+    // this.setState({ quotes: allQuotes });
+    // localStorage.setItem('quotes', allQuotes);
+    // console.log(this.state.quotes)
+
+
+
+
     //
+    // let allQuotes = charactersWithQuotes.map() => {
+    //       fetch(`https://animechan.vercel.app/api/quotes/character?name=${currentName}`)
+    //         .then(response => response.json())
+    //         .then(data => data)
+    //     }
+
+        // charactersWithQuotes.forEach(character => {
+        //   fetch(`https://animechan.vercel.app/api/quotes/character?name=${character}`)
+        //     .then(response => response.json())
+        //     .then(data => {
+        //       this.state.quotes.push(data)
+        //
+        //     })
+        // })
+
     //
     // this.setState({ quotes: allQuotes });
     // localStorage.setItem('quotes', allQuotes);
@@ -121,7 +145,7 @@ class MatchUp extends Component {
               className="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
               alt=""
-              onClick={ () => { this.getCharacterStats(this.state.firstFighter, this.findImage(this.state.firstFighter)) } }
+              onClick={ () => { this.props.getFighterStats(this.state.firstFighter, this.findImage(this.state.firstFighter)) } }
             />
           </Link>
           { this.state.firstFighter.name &&
@@ -143,7 +167,7 @@ class MatchUp extends Component {
               className="second-fighter-box"
               src={this.findImage(this.state.secondFighter)}
               alt=""
-              onClick={ () => { this.getCharacterStats(this.state.secondFighter, this.findImage(this.state.secondFighter)) } }
+              onClick={ () => { this.getFighterStats(this.state.secondFighter, this.findImage(this.state.secondFighter)) } }
             />
           </Link>
           { this.state.secondFighter.name &&

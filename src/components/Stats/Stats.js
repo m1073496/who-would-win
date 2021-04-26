@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Stats.css";
 
-const Stats = ({ fighter, image }) => {
+const Stats = ({ fighter, image, getQuote }) => {
 
   if (fighter.name) {
     const allMoves = fighter.moves.map(move => {
