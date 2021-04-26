@@ -46,9 +46,9 @@ findImage = () => {
     return (
       <main className="App">
           <Route exact path="/">
-            <div className="home">
-              <header>Who Would Win?</header>
-              <Link className="fight-link" to="/matchUp"><button className="fight-button">Let's Fight!</button></Link>
+            <div className="home" data-cy="home-view">
+              <header data-cy="App-title">Who Would Win?</header>
+              <Link className="fight-link" to="/matchUp" data-cy="fight-button"><button className="fight-button">Let's Fight!</button></Link>
               <img
                 className="left-image"
                 src={ this.findImage() }

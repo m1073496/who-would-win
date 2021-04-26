@@ -68,12 +68,13 @@ class MatchUp extends Component {
   render() {
     return (
       <div>
-        <main className="matchup-container">
-          <h1 className="header">Who Would Win?</h1>
+        <main className="matchup-container" data-cy="matchup-container">
+          <h1 className="header" data-cy="header">Who Would Win?</h1>
           {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
           <Link to="/stats" className="first-fighter-link">
             <img
               className="first-fighter-box"
+              data-cy="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
               alt=""
               onClick={ () => { this.props.getFighterStats(this.state.firstFighter, this.findImage(this.state.firstFighter)) } }
@@ -92,10 +93,11 @@ class MatchUp extends Component {
             onClick={ () => this.vote(this.state.firstFighter) }
             >VOTE</button>
           }
-          <div className="vs">VS</div>
+          <div className="vs" data-cy="vs">VS</div>
           <Link to="/stats" className="second-fighter-link">
             <img
               className="second-fighter-box"
+              data-cy="second-fighter-box"
               src={this.findImage(this.state.secondFighter)}
               alt=""
               onClick={ () => { this.props.getFighterStats(this.state.secondFighter, this.findImage(this.state.secondFighter)) } }
@@ -112,7 +114,7 @@ class MatchUp extends Component {
             <button className="second-fighter-vote">VOTE</button>
           }
           <p className="choose-fighter">choose your fighters...</p>
-          <Navigation className="nav-bar"/>
+          <Navigation className="nav-bar" data-cy="navigation"/>
         </main>
         <Route
           path="/stats">

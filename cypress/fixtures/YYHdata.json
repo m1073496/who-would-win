@@ -1,0 +1,262 @@
+{
+ "characters": [
+  {
+   "name": "Yusuke Urameshi",
+   "image": "yusuke.png",
+   "summary": "Yusuke Urameshi (浦飯 幽助, Urameshi Yūsuke) is the main protagonist of the manga and anime series YuYu Hakusho. He is a Spirit Detective who is tasked with protecting Human World from various supernatural threats over the course of the series and his closest friends as well as greatest allies include Kuwabara, Kurama, Hiei, Keiko, Genkai, Koenma and Botan. One of his most notable traits is his desire to fight, which becomes more noticeable as the series progresses. Yusuke has been noted on many occasions to be rather unintelligent, and, at times, just plain stupid. However, as his teacher Genkai later notes, he can be a genius at fighting. Yusuke's desire to fight is more out of enjoyment of a good brawl, and surprisingly Yusuke doesn't like killing if he can avoid it. Another prominent trait of Yusuke's psyche is his sense of justice, as he doesn't tolerate evildoers and always has a firm resolve to capture or even beat them for the sake of doing the right thing.",
+   "rank": "Upper S Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
+   "moves": [
+     "Spirit-Gun",
+     "Spirit Shotgun",
+      "Spirit Punch",
+      "Spirit Kick",
+      "Spirit Gun Barrage",
+      "Spirit Wave",
+      "Spirit Cuffs",
+      "Demonic Transformation"
+    ],
+   "fighting_style": "Yusuke enjoys a good brawl, and seems to prefer fighting with his fists, though he specializes in long range projectile techniques that destroy foes from a distance or many foes at once. Shura observed that Yusuke did have some tricks or real style to how he fights. Thus when he fights to defeat the opponent, for the sake of efficiency he will tend to strike from afar with his spiritual projectiles (when using Spirit Gun, his face rarely shows the satisfaction he has when fist-fighting), but will fight using his physical skills if he wants to enjoy a good battle. A tactic he sometimes employs is to fight with his fists at close range, and once the opponent leaps back to dodge an attack, Yusuke will shoot a Spirit Gun at them. While Yusuke prefers to use his fists in a fight, he will use any type of blow (punch or kick) to attack his opponent like when he kicked the Younger Toguro in the face to attack and avoid Toguro's punch. Yusuke is also a fan of mixed martial arts and it seems likely that he has taken more than a few moves from watching matches. Unless he is in a dangerous situation, Yusuke is a very aggressive fighter and rarely thinks before making a move, even firing a Spirit Gun at Sensui and realizing too late it may harm Kuwabara. Overall, One would describe Yusuke as an instinctive fighter. His ability to read and attack his opponents comes from a high innate fighting sense rather than practiced study."
+  },
+  {
+   "name": "Kazuma Kuwabara",
+   "image": "kuwabara.png",
+   "summary": "Kazuma Kuwabara (桑原和真, Kuwabara Kazuma), more commonly known by his last name as Kuwabara, is one of the main protagonists of the series, along with Yusuke Urameshi, Kurama & Hiei. Thanks in part to his naturally high Spiritual Awareness, Kuawabara already possessed far more spiritual energy than most humans, which is best demonstrated by his ability to shape his raw energy into his signature Spirit Sword. Said energy would only increase in size through his training for both the Dark Tournament and later the clash with Sensui, where his overall power rose to A-Class levels upon witnessing the death of Yusuke.",
+   "rank": "A Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
+   "moves": [
+     "High Spirit Awareness",
+     "Telepathy",
+      "Precognition",
+      "Immense Spiritual Power",
+      "Superhuman Physical Strength & Endurance",
+      "Spirit Kick",
+      "Spirit Transfusion"
+    ],
+   "fighting_style": "Though Kuwabara is more of a brawler-type fighter who rushes in clumsily, he initially considers the greatest defense to be a good offense. In later battles he often wins (or at least counters) by using the versatility of his spirit blades, finding a unique application to it that would be most appropriate to the situation (i.e. bat to Rando, whip-sword to Rinku, swatter to Toguro). His high sixth sense rarely plays a role in his battles, though he has used it to avoid foes and sense danger. As the moral core of the team, he is more prone than Yusuke to become stronger when his friends and innocents are present or in danger, as those he cared about played a role in his victory over Risho. Unfortunately, Kuwabara's lack of any kind of formal training in swordsmanship leads to him swinging his weapon about with reckless abandon, which allows experienced fighters to easily dodge his attacks. "
+  },
+  {
+   "name": "Kurama",
+   "image": "kurama.png",
+   "summary": "Yoko Kurama (妖狐蔵馬, lit. Yōko Kurama; in the English dub, Kurama the Yoko), also known as Shuichi Minamino (南野秀一, Minamino Shūichi translated as Southern Field and Excellence First, respectively), is one of the main protagonists in the anime/manga series of YuYu Hakusho. The word Yoko, despite being portrayed as a name in the dub, actually literally translates to demon fox in Japanese. Kurama is the most calculating, cunning and analytical member of the main characters and perhaps in the whole series. He is able to carefully look past his feelings and see the real situation at hand, which has been demonstrated on more than one occasion. He is extremely perceptive, able to quickly recognize the patterns and mistakes that his opponents make, which gives him an edge. In battle, while his preference is to concoct strategies based on deduction of his opponents' fighting abilities and style, his natural battle instincts are also highly tuned. ",
+   "rank": "S-Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
+   "moves": [
+     "Rose Whip",
+      "Rose Whip Thorn Wheel",
+      "Vast Intellective Approach / Unparalleled Precision",
+      "Demonic Plant Manipulation",
+      "Rose Whiplash",
+      "Petals and Thorns",
+      "Death Tree",
+      "Ojigi Plant",
+      "Bloodsucking Plant",
+      "Smoke Screen"
+    ],
+    "fighting_style": "On countless occasions it has been demonstrated upon the sheer depth of Kurama's intellectual capabilities. Coupled with his innate ability to conceal his emotions in the face of adversity, and his power to summon plants from the demon world, his mind makes Kurama one of the most powerful characters in the series. Along with his centuries of experience as a fighter, Kurama has molded himself into a master strategist, tactician, and analyst. He is frequently the first person to point out or find a weakness in his opponent's abilities or fighting style and exploit them to his advantage. The weakness of this is that in his attempt to understand and come up with a way to defeat his opponent, he tends to go easy on his opponent at first and is often the most injured of the four. Still his ability to think several steps before the enemy almost always ensures his victory."
+  },
+  {
+   "name": "Hiei",
+   "image": "hiei2.png",
+   "summary": "Hiei (飛影ひえい, Literally meaning: Flying Shadow) also known as, Jaganshi Hiei (Jaganshi is an epithet meaning Master of the Evil Eye), is a main character in the anime and manga series YuYu Hakusho by Yoshihiro Togashi. He is called Hiei of the Evil Eye in the Viz manga and Vincent in Filipino dub. Hiei prefers to keep his distance from others, so he often comes across as aloof and elusive. He has a rather cynical and even misanthropic view of the world around him, often belittling and mocking humans and their emotions and the significance they place on friendship and life.",
+   "rank": "Upper S Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
+   "moves": [
+      "Jagan Eye",
+      "Dragon of the Darkness Flame",
+      "Elemental Resistance",
+      "Enhanced Strength",
+      "Super Speed",
+      "Afterimage",
+      "Master Swordsman",
+      "Fist of the Mortal Flame",
+      "Sword of the Darkness Flame",
+      "Dragon Absorption"
+    ],
+   "fighting_style": "Compared to the more calculating Kurama who tends to try to figure out his opponents, the merciless Hiei rarely employs any strategy in his battles and rushes in with a take no prisoners mentality, often overwhelming his opponents with sheer brute force and superior speed. He tends to use his sword to quickly defeat weaker enemies at a close range, but will use his much more powerful dark flame manipulation abilities if he views his target as a worthy opponent, or wishes to destroy a large number of enemies at once."
+  },
+  {
+   "name": "Master Genkai",
+   "image": "genkai.png",
+   "summary": "Genkai (幻海, Literally meaning: Sea of Apparitions) was the master of the spirit detective Yusuke Urameshi and Kazuma Kuwabara. Genkai was an old-fashioned woman with great strength and determination. She put her mind and body through extensive training to allow her to create and control the spirit wave orb, which contributed greatly to her rather cold and hard demeanor.",
+   "rank": "B Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
+   "moves": [
+    "Spirit Barrier",
+    "Shockwave",
+    "Levitation",
+    "Spirit Energy Tracking",
+    "Spirit Healing",
+    "Paralyzing Touch",
+    "Spirit Wave"
+  ],
+  "fighting_style": "In her prime, it can be argued that Genkai was above B Class. She has consistently been noted to be one of the most powerful characters in the series and Yusuke would not be half as powerful if it were not for her training and Spirit inheritance. Genkai's personal fighting style, coveted by humans and demons alike. It works by using one's body as a center for spirit energy (instead of only one's finger like in the Spirit Gun), in a sense, making your whole body a weapon. Doing so returns your body to the time it was at its peak. In Genkai's case, her early twenties. According to Genkai, the Spirit Wave also granted numerous abilities including healing wounds, purification, and even unleashing a massive blast of Spirit Energy powerful enough to blast apart mountains."
+  },
+  {
+   "name": "Jin",
+   "image": "jin.png",
+   "summary": "Jin (陣) is a yōkai who makes his first appearance during the Dark Tournament Saga as part of Team Masho (named only in the English anime, Shadow Channelers in the English manga, and Team Mashotsukai in the original Japanese version), the team's true title being the Shinobi of Spirit World. Jin, following his team's theme of having elemental-based powers, is a master at controlling the air and wind that surrounds him. Jin is truly the strongest member of his team, but Risho was leader simply because of his intelligence and leadership skills. Jin was a former member of Team Masho and currently a friend and an ally of Yusuke Urameshi. ",
+   "rank": "S Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/S-Class",
+   "moves": [
+     "Tornado Fist Explosion",
+     "Aerokinetic Flight",
+     "Tornado Fist",
+     "Double Tornado Fist",
+     "Wind Barrier",
+     "Teleportation"
+   ],
+   "fighting_style": "Jin's most obvious power is his ability to manipulate wind. He is able to control wind to such an extent that he can produce it as a show of power, flight, barrier or powerful wind-based punches. Jin's wind based speed has a limit, as he cannot exceed the speed of the wind itself. However, his own speed more than makes up for this flaw. Jin mainly uses quick melee attacks in battle, often employing hit and run tactics, flying away to avoid potentially dangerous situations. He can easily defend himself from long range as well, making him a difficult opponent. By the time of the Makai tournament, Jin has learned more long range attacks, allowing him to fight from a distance, and making up for his weakness of having to charge at his foes."
+ },
+  {
+   "name": "Chū",
+   "image": "chū.png",
+   "summary": "Chū (酎,Chū) is an ally/friend of Yusuke Urameshi and the former leader of Team Rokuyukai during the Dark Tournament Saga. He was called Joe in the Filipino dub of the anime.",
+   "rank": "S Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/S-Class",
+   "moves": [
+     "Demon Alchemy",
+     "Ogre Killer",
+     "Ogre Boulder",
+     "Knife Edge Death Match",
+     "Barrier"
+   ],
+   "fighting_style": "Chū gains additional strength to his already incredible power when he consumes alcohol most notably the Ogre Killer drink. The more drunk the fighter is, the more unpredictable his movements and attacks become, making him a deadly opponent. Chū possesses extreme physical strength, especially in his fists and head, which was able to shatter a mountain. It is possible Chū uses his demon energy to enhance his strength in a manner similar to Yusuke's Spirit Punches, only focusing it on his head in his case. He is also rather fast, quickly punching Yusuke a few times while dodging some of the latter's attacks at the same time."
+  },
+  {
+   "name": "Younger Toguro",
+   "image": "toguro.png",
+   "summary": "Younger Toguro (戸愚呂弟 Toguro-otōto?), more commonly known as Toguro, is a major antagonist of Yu Yu Hakusho, He served as the final antagonist of the Spirit Detective Saga, and the main antagonist of the Dark Tournament Saga. He was the leader of both the Apparition Gang and Team Toguro, alongside his brother, Elder Toguro. He is also one of the archenemies of Yusuke Urameshi (alongside Suzaku, and Sensui).",
+   "rank": "A Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/A_Class",
+   "moves": [
+     "Percentage Power",
+     "Raw Power",
+     "Damaging Aura",
+     "Regeneration",
+     "Soul Absorption",
+     "Superhuman Speed"
+   ],
+   "fighting_style": "Toguro's signature ability lies in his ability to regulate how much of his maximum power he releases, ranging from 0% to 100%. However, in the Dark Tournament in his final fight against Yusuke, as Yusuke employs the use of a full-powered Spirit Gun, Toguro goes beyond his normal limits by overexerting his 100% form; reaching 100% of 100% of his full power. With each increase comes a burst of Demon Energy and his muscles thicken and enlarge themselves. This ability drastically increases not only his strength, but also his speed and durability to the point where he able to a direct hit from the Spirit Warriors leader's axe and even Yusuke's Spirit Gun. It also appears to change the size of his skeletal structure accordingly, increasing his height, width, and the length of his limbs. At full power, his appearance changes drastically; his skin shifts to a dark grey color with a somewhat ropy texture from its previously human appearance."
+  },
+  {
+   "name": "Elder Toguro",
+   "image": "elder.png",
+   "summary": "Elder Toguro (戸愚呂兄 Toguro (Ani)?) was a major antagonist during the Dark Tournament and the Chapter Black Sagas, as well as a minor one at the end of the Spirit Detective saga, making him the longest running villain of the series. Along with his younger brother, he plays the role of leader of the Apparition Gang, he is a member of Team Toguro, and a vital member of Sensui's crew.",
+   "rank": "B Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
+   "moves": [
+     "Shapeshifting Combat",
+     "Elasticity",
+     "Immortality",
+     "Regeneration",
+     "Possession",
+     "Power Absorption"
+   ],
+   "fighting_style": "Toguro has the unique ability of manipulating the anatomy and physiology of his body. He usually elongates his finger(s), which can be used to grab, or stab, his opponent. He can also transform any part of his body into an edged weapon. He can even transform his entire body into a specific weapon, such as a sword or a shield for his younger brother to wield in combat (in the English dub, he claims to be able to transform into a machine gun). Additionally, he is able to freely relocate any of his internal and external organs around and inside his body, being able to avoid a lethal blow to his body, which made killing him virtually impossible.[7] He could even liquefy his body if he wanted to."
+  },
+  {
+   "name": "Karasu",
+   "image": "karasu.png",
+   "summary": "Karasu (鴉?) was a member of Team Toguro, during the events of the Dark Tournament. An unspecified number of years prior to the last Dark Tournament, Karasu was defeated by the Toguro Brothers in a fight, and was almost left for dead. Overwhelmed by his performance during the fight, the Toguro Brothers spared Karasu from death, humiliating the demon bomber in the process. As a means to reclaim his stolen pride, Karasu joined Team Toguro and fought alongside the brothers within the Dark Tournament, in hopes that he might some day become strong enough in order to kill them.",
+   "rank": "Quest Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Quest_class",
+   "moves": [
+     "Explosive Touch",
+     "Deleterious Bomb",
+     "Trace-Eyes",
+     "Grenade",
+     "Demonic Grenade",
+     "Vanishing",
+     "Full Body Explosion"
+   ],
+   "fighting_style": "Like Kurama, Karasu uses his demon energy in order to manipulate objects. However, given the fact that he is a Quest-class (支配者級 [クエスト･クラス], Shihaisha-kyū [Kuesuto Kurasu], translated as Governor-rank) demon, Karasu's powers can affect the intangible world. This means that he is able to literally create any object he desires purely out of his demon energy. After releasing his energy, Karasu can either create an item in thin air, or inside any form of matter, whether it be an inanimate object or the body of a living being. Depending on the strength and spiritual awareness of his adversary, Karasu's demon energy can be detected without him having to directly materialize it. Given his sadistic nature, Karasu prefers to create bombs by using his powers."
+  },
+  {
+   "name": "Bui",
+   "image": "bui.png",
+   "summary": "Bui (武威?) is a former member of Team Toguro, during the events of the Dark Tournament Saga. Both Bui and Karasu had an equal hatred for Toguro, as both of them were defeated by him a long time ago before the events of the last Dark Tournament. This became the motivation for which the two of them kept training and improving their skills, so that one of them might some day be able to get back at Younger Toguro, and ultimately kill him. Bui had never openly mentioned this motive until his fight against Hiei.",
+   "rank": "B Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/B_Class",
+   "moves": [
+     "Axe",
+     "Enhanced Strength",
+     "Battle Armor",
+     "Battle Aura",
+     "Aura Battle Cross Attack",
+     "Flight"
+   ],
+   "fighting_style": "Bui normally fights melee-style using a enormous battle axe, about the size of his own body. The axe is created by Bui's own demon energy, which materializes into an axe when he wills it so. It is so heavy that throwing it onto his shoulder once caused his feet to sink a few inches into the Dark Tournament's stone fighting ring. This axe he wields was demonstrated during his battle against Kirenjya as he quickly decapitates his opponent with just one single slash in half."
+  },
+  {
+   "name": "Shinobu Sensui",
+   "image": "sensui.png",
+   "summary": "Shinobu Sensui (仙水忍, Sensui Shinobu) was a very powerful human, and noted himself to have more than ten times the spiritual energy than Yusuke in their fight. When Sensui started releasing his Sacred Energy, Hiei mentions that if Sensui was a demon, his energy levels would have been S-class, even though he was still suppressing his true power and openly saying that he was using less than half. Sensui's power was so great, that he held a distinct advantage over Yusuke, even in his demon form. According to Raizen, Yusuke's demon ancestor and the most powerful of the Three Kings, Sensui would've eventually killed Yusuke had he not interfered, despite that Yusuke had been revived as a mazoku. Additionally, it should be noted that these judgments of Sensui's power were made at a time during which he was so ill that he was judged to have about two weeks left to live. Sensui is also shown to have very sharp senses. Despite Sensui having more than enough power to overwhelm Yusuke, Sensui's instincts were hesitant to do so. It was revealed the reason behind Sensui's hesitation was because his instincts sensed Yusuke's dormant demon blood and knew killing Yusuke would trigger his rebirth.",
+   "rank": "S Class",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/S_Class",
+   "moves": [
+     "Resshū Kō Kyū Ha",
+     "Splinter Resshūken",
+     "Sacred Energy",
+     "Sacred Energy Armor",
+     "Energy Projection",
+     "Twisted Twister",
+     "Energy Gun",
+     "Sacred Energy Beam"
+   ],
+   "fighting_style": "Resshūken (裂蹴拳, literally translated as Fissure Kick Fist; VIZ; Lightning Kickboxing): An elegant fighting style that is only available to fighters that have mastered all other forms of martial arts. This style is considered to be the strongest, most elegant, school of martial arts in existence and relies on fast footwork in order to focus on fending off enemy attacks with the arms and using the legs to counterattack with powerful kicks. Genkai was the one to identify and name this fighting style during the first confrontation between Sensui and Yusuke. The English dubs pronounce this as Reshuyuken. As a result of his training for this martial art, his physique is extremely well developed, to the point where Yusuke compared hitting him to punching a tractor tire. At one point, after punching Sensui repeatedly in the stomach, Yusuke had to take a somewhat comical time-out while Sensui was down to nurse his battered hand."
+  },
+  {
+   "name": "Lord Raizen",
+   "image": "raizen.png",
+   "summary": "Raizen (雷禅, Raizen) was part of a special type of elite and powerful demon called a Mazoku (loosely meaning the \"Tribe of Devils\", translated as Demonkin in FUNimation's subtitles of the original Japanese anime.). He was also one of The Three Kings of Makai and Yusuke Urameshi's ancestral father. In the anime, prior to Yusuke's departure to Demon World, Raizen is called Toshin by Hokushin. As this can be translated to mean Battle God, it is likely a nickname rather than a surname. He is also called the Master of War or Warrior God depending on the translation.",
+   "rank": "Upper S",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
+   "moves": [
+     "Superior S Class Demon Energy",
+     "Incredible strength",
+     "Lightning Empowerment",
+     "Energy Cutter",
+     "Fury Palm Rush",
+     "Flight",
+     "Energy Blast",
+     "Possession",
+     "Incredible Speed"
+   ],
+   "fighting_style": "Although Raizen's fights during the series have never shown his true power, it is admitted by many characters that Raizen is the most powerful fighter in the series. After abstaining from eating humans for hundreds of years, and losing more of his power as a result, his strength was still great enough so that he could rival Yomi and Mukuro, who both dared not directly antagonize Raizen or each other without caution lest the surviving King easily falls prey to the remaining third, thus keeping the war at a three way stalemate. It has been said that, in his prime, Raizen was strong enough to shake the earth while powering up."
+  },
+  {
+   "name": "Lord Mukuro",
+   "image": "mukuro.png",
+   "summary": "Mukuro (軀) is a powerful demon who lives in demon world. She is part of a triumvirate of upper S-class demons known as the The Three Kings, who rule over Demon World. When Mukuro first appeared, she came off as having a very mysterious personality. During her years as a warrior, few knew that Mukuro was female. It is however, interesting to note that the specific reasoning why she decided to pass herself off as the opposite gender is subject to speculation. In a shocking turn-around, she made a point of revealing her gender at the start of the demon world tournament. Raizen describes Mukuro as a traditionalist and an isolationist and notes that she likes Makai just the way it is and believes it should remain in its pristine, untouched and chaos-ridden state.",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
+   "moves": [
+     "Superior S Class Demon Energy",
+     "Telepathy",
+     "Lightning Empowerment",
+     "Third Dimensional Cutter",
+     "Dimensional Forcefield",
+     "Energy Punches",
+     "Energy Fist Blast",
+     "Telekinesis"
+   ],
+   "fighting_style": "In both the manga and the anime, Mukuro's power depends entirely on her state of mind. In the anime, it seems that her power is directly-proportional to how much hatred she feels. As stated by Kirin, Mukuro utilized at most, half of her maximum strength in the Demon World Tournament. Thus, Mukuro at her peak was at least the 2nd most powerful character in the series, with Raizen being the only one capable of being stronger than her. Mukuro's ruthlessness as a ruler and merciless brutality in battle strike fear in the minds of countless apparitions across the plains of Makai. Her hard-earned reputation alone devastates the composure of her opponents. Many powerful S-Class Demons would rather shamelessly admit defeat than face her in combat. Although Mukuro is primarily a hand-to-hand combatant, she appears in a brief flashback to be using a sword, although she is almost never seen carrying one around. She demonstrates the ability to cut through the entirety of the third dimension. Whatever comes into contact with the slashes will be cut as well. "
+  },
+  {
+   "name": "Lord Yomi",
+   "image": "yomi.png",
+   "summary": "He is the main antagonist of the Three Kings Saga and the final antagonist of the series. Despite never begging for mercy in battle, after losing his sight, Yomi is a calm person, who thinks before he acts even in battle, which is arguably what contributed most to his growing strength. In the English Dub, he tells Kurama that he did his best to model himself after him; this is true enough as Yomi takes the time and patience to gather intel to devise backup plans. Even Kurama notes that Yomi took a great deal of preparation to blackmail him into an alliance.",
+   "rank": "Upper S",
+   "rank_url": "https://yuyuhakusho.fandom.com/wiki/Upper_S_Class",
+   "moves": [
+     "Superior S Class Demon Energy",
+     "Demon Absorption Wall",
+     "Teleportation",
+     "Tornado Energy Blast",
+     "Energy Blast Barrage",
+     "Energy Blasts"
+   ],
+   "fighting_style": "Since he lost his sight, Yomi grew four extra ears to compensate for his lack of vision. Yomi's sense of hearing is so great that he claims to be able to hear every word being spoken in his kingdom of Gandara. He is also able to accurately pick up on changes in an organism's heart rate, allowing him to guess facial expressions and current emotional composition, despite his lack of sight. Having modeled himself after Kurama, Yomi is a calm, calculating fighter, being able to measure the exact speeds of the opponent's attacks with his hearing, and activating his barrier at the moment of impact so as to not waste energy. In the manga, Yusuke says that someone told him that Yomi's ability to fight purely by sensing ki and relying on hearing takes a massive amount of concentration and stamina, which is one of the main reasons that his fight with Yusuke went on for so long despite his power advantage over Yusuke."
+  }
+ ]
+}
