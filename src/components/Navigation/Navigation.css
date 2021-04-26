@@ -9,7 +9,7 @@
 
 .db-link {
   grid-column: 1 / 2;
-  background-color: #D8DAF7;
+  background-color: black;
   color: white;
   font-size: 20px;
   align-self: flex-end;
@@ -20,7 +20,7 @@
 
 .yyh-link {
   grid-column: 2 / 3;
-  background-color: #D8DAF7;
+  background-color: black;
   color: white;
   font-size: 20px;
   align-self: flex-end;
@@ -31,7 +31,7 @@
 
 .hxh-link {
   grid-column: 3 / 4;
-  background-color: #D8DAF7;
+  background-color: black;
   color: white;
   font-size: 20px;
   align-self: flex-end;
@@ -57,5 +57,5 @@
 
 .selected {
   padding: 12px;
-  background-color: #E5E9F9;
+  background-color: #1AFF9D;
 }
