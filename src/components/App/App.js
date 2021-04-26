@@ -15,21 +15,25 @@ class App extends Component {
     this.state = {
       fighterStats: {},
       image: '',
-      quotes: []
+      firstQuotes: [],
+      secondQuotes: []
     }
   }
 
 getFighterStats = (fighter, image) => {
-  this.getQuote(fighter.name);
   this.setState({ fighterStats: fighter, image: image });
 }
 
-getQuote = (fighterName) => {
+getQuote = (fighterString, fighterName) => {
   fetch(`https://animechan.vercel.app/api/quotes/character?name=${fighterName}`)
     .then(response => response.json())
     .then(data => {
-      console.log(data)
-        this.setState({ quotes: data })
+      if (fighterString === 'firstFighter') {
+        this.setState({ firstQuotes: data })
+      } else {
+        this.setState({ secondQuotes: data })
+      }
+
     })
 }
 
@@ -53,11 +57,11 @@ findImage = () => {
           </Route>
         <Route
           path="/matchUp">
-          <MatchUp getFighterStats={ this.getFighterStats }/>
+          <MatchUp getFighterStats={ this.getFighterStats } getQuote={ this.getQuote }/>
         </Route>
         <Route
           path="/stats">
-          <Stats fighter={ this.state.fighterStats } image={ this.state.image } getQuote={ this.getQuote }/>
+          <Stats fighter={ this.state.fighterStats } image={ this.state.image } firstQuotes={ this.state.firstQuotes } secondQuotes={ this.state.secondQuotes }/>
         </Route>
       </main>
     );

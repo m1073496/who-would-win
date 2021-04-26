@@ -2,7 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Stats.css";
 
-const Stats = ({ fighter, image, getQuote }) => {
+const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
+
+  console.log(firstQuotes)
+  console.log(secondQuotes)
 
   if (fighter.name) {
     const allMoves = fighter.moves.map(move => {
@@ -24,11 +27,11 @@ const Stats = ({ fighter, image, getQuote }) => {
           />
         </Link>
 
-        <p className="quote">{fighter.summary}</p>
+        <p className="quote">{ secondQuotes[0].quote }</p>
         <div className="first-column">
           <p>{ fighter.summary }</p>
           <p>{ fighter.rank }</p>
-          <p>{ fighter.summary }</p>
+          <p>{ fighter.fighting_style }</p>
         </div>
         <div className="second-column">ABILITIES: { allMoves }</div>
 
