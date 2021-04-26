@@ -17,3 +17,15 @@
 .character-name-item:hover {
   background-color: white;
 }
+
+@media screen and (max-width: 1025px) {
+  .character-name-item {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .character-name-item {
+    font-size: 20px;
+  }
+}
