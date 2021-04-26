@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./CharacterList.css";
 
 const CharacterList = ({ characterSet, selectFighters }) => {
@@ -22,3 +23,8 @@ const CharacterList = ({ characterSet, selectFighters }) => {
 }
 
 export default CharacterList;
+
+CharacterList.propTypes = {
+  characterSet:PropTypes.object.isRequired,
+  selectFighters: PropTypes.func.isRequired
+};

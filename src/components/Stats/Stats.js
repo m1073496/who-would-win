@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 import "./Stats.css";
 
 const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
@@ -93,3 +94,10 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 }
 
 export default Stats;
+
+Stats.propTypes = {
+  fighter:PropTypes.object.isRequired,
+  image: PropTypes.string.isRequired,
+  firstQuotes:PropTypes.array.isRequired,
+  secondQuotes:PropTypes.array.isRequired
+};
