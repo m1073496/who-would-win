@@ -4,11 +4,11 @@ import WinnerBar from "../WinnerBar/WinnerBar";
 import CharacterList from "../CharacterList/CharacterList"
 import Navigation from "../Navigation/Navigation";
 import Stats from "../Stats/Stats";
+// import { getQuotes } from "../../API-calls.js"
 import './MatchUp.css';
-import image from './android17-main1.png';
-import image2 from './android18-main2.png';
 import secondKamehameha from '../../assets/trunks.gif';
 import firstKamehameha from '../../assets/buu.gif';
+import funnyBuu from '../../assets/funny-boo.png';
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
@@ -36,8 +36,10 @@ class MatchUp extends Component {
   selectFighters = (fighter) => {
     if (Object.keys(this.state.firstFighter).length === 0) {
       this.setState({ firstFighter: fighter })
+      this.props.getQuote('firstFighter', fighter.name);
     } else if (Object.keys(this.state.secondFighter).length === 0) {
       this.setState({ secondFighter: fighter })
+      this.props.getQuote('secondFighter', fighter.name);
     }
   }
 
@@ -45,9 +47,9 @@ class MatchUp extends Component {
     if (Object.keys(fighterNum).length) {
       return images[`${fighterNum.image}`]['default'];
     } else if (this.state.firstFighter === fighterNum){
-      return firstKamehameha;
+      return funnyBuu;
     } else {
-      return secondKamehameha;
+      return funnyBuu;
     }
   }
 
@@ -64,7 +66,6 @@ class MatchUp extends Component {
   }
 
   render() {
-    console.log(this.state.firstFighter)
     return (
       <div>
         <main className="matchup-container">
@@ -75,7 +76,7 @@ class MatchUp extends Component {
               className="first-fighter-box"
               src={this.findImage(this.state.firstFighter)}
               alt=""
-              onClick={ () => { this.props.getFighterStats(this.state.firstFighter) }}
+              onClick={ () => { this.props.getFighterStats(this.state.firstFighter, this.findImage(this.state.firstFighter)) } }
             />
           </Link>
           { this.state.firstFighter.name &&
@@ -97,7 +98,7 @@ class MatchUp extends Component {
               className="second-fighter-box"
               src={this.findImage(this.state.secondFighter)}
               alt=""
-              onClick={ () => this.props.getFighterStats(this.state.secondFighter) }
+              onClick={ () => { this.props.getFighterStats(this.state.secondFighter, this.findImage(this.state.secondFighter)) } }
             />
           </Link>
           { this.state.secondFighter.name &&

@@ -1,31 +1,80 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Stats.css";
-import image from '../MatchUp/android18-main2.png';
-import backArrow from '../../assets/left-arrow.svg';
 
-const Stats = ({ fighter }) => {
+const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
+
+  console.log(firstQuotes)
+  console.log(secondQuotes)
+
 
   if (fighter.name) {
+
     const allMoves = fighter.moves.map(move => {
         return(
           <li>{ move }</li>
         )
-      })
+      });
+
+    let quote;
+
+    if (firstQuotes.error && secondQuotes.error) {
+      quote = '';
+
+    } else if (firstQuotes.error && secondQuotes[0].character.includes(fighter.name)) {
+
+      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[2].quote}"`;
+      } else if (secondQuotes[0].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[0].quote}"`;
+      } else {
+        quote = '';
+      };
+
+    } else if (secondQuotes.error && firstQuotes[0].character.includes(fighter.name)) {
+
+      if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[2].quote}"`;
+      } else if (firstQuotes[0].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[0].quote}"`;
+      } else {
+        quote = '';
+      };
+
+    } else if (!firstQuotes.error && !secondQuotes.error) {
+
+      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[2].quote}"`;
+
+      } else if (secondQuotes[0].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[0].quote}"`;
+
+      } else if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[2].quote}"`;
+
+      } else if (firstQuotes[0].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[0].quote}"`;
+      };
+
+   } else if (!firstQuotes.error || !secondQuotes.error) {
+      quote = '';
+   }
+
 
     return (
       <main className="stats-container">
 
         <h1 className="title">Stats</h1>
 
-        <Link className="image" to="/matchUp">
+        <Link className="link" to="/matchUp">
           <p className="return-text">return to fight...</p>
           <img
+            className="image"
             src={ image }
           />
         </Link>
 
-        <p className="quote">{fighter.summary}</p>
+        <p className="quote">{ quote }</p>
         <div className="first-column">
           <p>{ fighter.summary }</p>
           <p>{ fighter.rank }</p>

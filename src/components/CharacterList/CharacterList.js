@@ -3,11 +3,11 @@ import "./CharacterList.css";
 
 const CharacterList = ({ characterSet, selectFighters }) => {
 
-  // const nameList = characterSet.characters.map(character => {
-  //     return (
-  //       <li className="character-name-item" >{character.name}</li>
-  //     )
-  //   }
+  const nameList = characterSet.characters.map(character => {
+      return (
+        <button key={character.name} value={character.name} className="character-name-item" onClick={ (event) => { chooseFighter(event) } }>{ character.name }</button>
+      )
+  })
 
   const chooseFighter = (event) => {
     const fighter = characterSet.characters.find(character => character.name === event.target.value);
@@ -16,12 +16,7 @@ const CharacterList = ({ characterSet, selectFighters }) => {
 
   return (
     <section className="character-list-container">
-      { characterSet.characters.map(character => {
-          return (
-            <button key={character.name} value={character.name} className="character-name-item" onClick={ (event) => { chooseFighter(event) } }>{ character.name }</button>
-          )
-        })
-      }
+      { nameList }
     </section>
   )
 }
