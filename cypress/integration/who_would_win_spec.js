@@ -12,7 +12,7 @@ describe('Who Would Win', () => {
       cy.get('[data-cy=stats-container]').should('not.exist');
 
       cy.get('[data-cy=App-title]').contains('Who Would Win?');
-      cy.get('[data-cy=fight-button]').contains(`Let's Fight!`);
+      cy.get('[data-cy=fight-button]').contains(`LET'S FIGHT!`);
     });
 
     it('Should provide a way to navigate to the Match Up view', () => {
