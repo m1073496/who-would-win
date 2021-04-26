@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import PercentagesSlider from 'react-percentages-slider'
+import React, { useState } from "react";
+import PercentagesSlider from "react-percentages-slider";
+import PropTypes from "prop-types";
 
-const WinnerBar = ({ fighterss }) => {
+const WinnerBar = ({ selectedFighters }) => {
   const [fighters, setFighters] = useState([
     {id: 0, text: "Fighter 1", color:"#13FF9D", percentage: 50 },
     {id: 1, text: "Fighter 2", color: "#14FFF9", percentage: 50 }
   ]);
 
   let percentage;
-  let modifiedFighters = fighterss.reduce((accu, currentFighter, i) => {
+  let modifiedFighters = selectedFighters.reduce((accu, currentFighter, i) => {
       let color;
 
       if (i === 0) {
@@ -27,3 +28,7 @@ const WinnerBar = ({ fighterss }) => {
 }
 
 export default WinnerBar;
+
+WinnerBar.propTypes = {
+  selectedFighters:PropTypes.array.isRequired
+};

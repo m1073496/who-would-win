@@ -1,18 +1,18 @@
 import { Component } from "react";
 import { Route, Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 import WinnerBar from "../WinnerBar/WinnerBar";
 import CharacterList from "../CharacterList/CharacterList"
 import Navigation from "../Navigation/Navigation";
 import Stats from "../Stats/Stats";
-// import { getQuotes } from "../../API-calls.js"
 import './MatchUp.css';
-import secondKamehameha from '../../assets/trunks.gif';
-import firstKamehameha from '../../assets/buu.gif';
-import funnyBuu from '../../assets/funny-boo.png';
+
 import yyhData from '../../YYHdata.json';
 import dbData from '../../DBdata.json';
 import hxhData from '../../HXHdata.json';
+
 import clearButton from '../../assets/close.svg';
+import funnyBuu from '../../assets/funny-boo.png';
 
 function importAll(r) {
   let images = {};
@@ -70,7 +70,7 @@ class MatchUp extends Component {
       <div>
         <main className="matchup-container" data-cy="matchup-container">
           <h1 className="header" data-cy="header">Who Would Win?</h1>
-          {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" fighterss={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
+          {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" selectedFighters={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
           <Link to="/stats" className="first-fighter-link">
             <img
               className="first-fighter-box"
@@ -146,3 +146,8 @@ class MatchUp extends Component {
 }
 
 export default MatchUp;
+
+MatchUp.propTypes = {
+  getFighterStats:PropTypes.func.isRequired,
+  getQuote: PropTypes.func.isRequired
+};
