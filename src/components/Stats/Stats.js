@@ -7,12 +7,59 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
   console.log(firstQuotes)
   console.log(secondQuotes)
 
+
   if (fighter.name) {
+
     const allMoves = fighter.moves.map(move => {
         return(
           <li>{ move }</li>
         )
-      })
+      });
+
+    let quote;
+
+    if (firstQuotes.error && secondQuotes.error) {
+      quote = '';
+
+    } else if (firstQuotes.error && secondQuotes[0].character.includes(fighter.name)) {
+
+      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[2].quote}"`;
+      } else if (secondQuotes[0].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[0].quote}"`;
+      } else {
+        quote = '';
+      };
+
+    } else if (secondQuotes.error && firstQuotes[0].character.includes(fighter.name)) {
+
+      if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[2].quote}"`;
+      } else if (firstQuotes[0].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[0].quote}"`;
+      } else {
+        quote = '';
+      };
+
+    } else if (!firstQuotes.error && !secondQuotes.error) {
+
+      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[2].quote}"`;
+
+      } else if (secondQuotes[0].character.includes(fighter.name)) {
+        quote = `"${secondQuotes[0].quote}"`;
+
+      } else if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[2].quote}"`;
+
+      } else if (firstQuotes[0].character.includes(fighter.name)) {
+        quote = `"${firstQuotes[0].quote}"`;
+      };
+
+   } else if (!firstQuotes.error || !secondQuotes.error) {
+      quote = '';
+   }
+
 
     return (
       <main className="stats-container">
@@ -27,7 +74,7 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
           />
         </Link>
 
-        <p className="quote">{ secondQuotes[0].quote }</p>
+        <p className="quote">{ quote }</p>
         <div className="first-column">
           <p>{ fighter.summary }</p>
           <p>{ fighter.rank }</p>
