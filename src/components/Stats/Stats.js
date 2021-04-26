@@ -5,15 +5,11 @@ import "./Stats.css";
 
 const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 
-  console.log(firstQuotes)
-  console.log(secondQuotes)
-
-
   if (fighter.name) {
 
     const allMoves = fighter.moves.map(move => {
         return(
-          <li>{ move }</li>
+          <li key={move}> { move } </li>
         )
       });
 
@@ -59,7 +55,7 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 
    } else if (!firstQuotes.error || !secondQuotes.error) {
       quote = '';
-   }
+   };
 
 
     return (
@@ -72,6 +68,7 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
           <img
             className="image"
             src={ image }
+            alt={`${image.name} standing in a fighting pose`}
           />
         </Link>
 
@@ -97,7 +94,7 @@ export default Stats;
 
 Stats.propTypes = {
   fighter:PropTypes.object.isRequired,
-  image: PropTypes.string.isRequired,
-  firstQuotes:PropTypes.array.isRequired,
-  secondQuotes:PropTypes.array.isRequired
+  image: PropTypes.string,
+  firstQuotes:PropTypes.array,
+  secondQuotes:PropTypes.array
 };
