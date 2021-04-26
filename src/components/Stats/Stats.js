@@ -62,7 +62,7 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 
 
     return (
-      <main className="stats-container">
+      <main className="stats-container" data-cy="stats-container">
 
         <h1 className="title">Stats</h1>
 

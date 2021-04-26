@@ -83,6 +83,7 @@ class MatchUp extends Component {
           { this.state.firstFighter.name &&
             <img
               className="clear-first-button"
+              data-cy="clear-first-button"
               src={clearButton}
               onClick={ () => this.clearFighter(this.state.firstFighter) }
             />
@@ -90,6 +91,7 @@ class MatchUp extends Component {
           { this.state.firstFighter.name && this.state.secondFighter.name &&
             <button
             className="first-fighter-vote"
+            data-cy="first-vote"
             onClick={ () => this.vote(this.state.firstFighter) }
             >VOTE</button>
           }
@@ -106,15 +108,20 @@ class MatchUp extends Component {
           { this.state.secondFighter.name &&
             <img
               className="clear-second-button"
+              data-cy="clear-second-button"
               src={clearButton}
               onClick={ () => this.clearFighter(this.state.secondFighter) }
             />
           }
           { this.state.firstFighter.name && this.state.secondFighter.name &&
-            <button className="second-fighter-vote">VOTE</button>
+            <button
+              className="second-fighter-vote"
+              data-cy="second-vote"
+              onClick={ () => this.vote(this.state.secondFighter) }
+              >VOTE</button>
           }
           <p className="choose-fighter">choose your fighters...</p>
-          <Navigation className="nav-bar" data-cy="navigation"/>
+          <Navigation className="nav-bar"/>
         </main>
         <Route
           path="/stats">
