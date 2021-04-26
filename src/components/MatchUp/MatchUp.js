@@ -85,6 +85,7 @@ class MatchUp extends Component {
               className="clear-first-button"
               data-cy="clear-first-button"
               src={clearButton}
+              alt="First fighter box with anime character in fighting pose"
               onClick={ () => this.clearFighter(this.state.firstFighter) }
             />
           }
@@ -110,6 +111,7 @@ class MatchUp extends Component {
               className="clear-second-button"
               data-cy="clear-second-button"
               src={clearButton}
+              alt="Second fighter box with anime character in fighting pose"
               onClick={ () => this.clearFighter(this.state.secondFighter) }
             />
           }

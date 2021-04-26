@@ -3,7 +3,7 @@ import PercentagesSlider from "react-percentages-slider";
 import PropTypes from "prop-types";
 
 const WinnerBar = ({ selectedFighters }) => {
-  const [fighters, setFighters] = useState([
+  const [setFighters] = useState([
     {id: 0, text: "Fighter 1", color:"#13FF9D", percentage: 50 },
     {id: 1, text: "Fighter 2", color: "#14FFF9", percentage: 50 }
   ]);

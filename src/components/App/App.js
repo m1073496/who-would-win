@@ -3,7 +3,7 @@ import { Route, Link } from "react-router-dom";
 import MatchUp from "../MatchUp/MatchUp";
 import Stats from "../Stats/Stats";
 import './App.css';
-import image from '../../assets/main/hiei1-main.png';
+
 import hxhGif from '../../assets/main/gon-killua-fight.gif';
 import dbGif from '../../assets/main/db-gif.gif';
 import yyhGif from '../../assets/main/yusuke-gif.gif';
@@ -51,6 +51,7 @@ findImage = () => {
               <img
                 className="left-image"
                 src={ this.findImage() }
+                alt="A gif of anime characters fighting"
               />
             </div>
           </Route>
