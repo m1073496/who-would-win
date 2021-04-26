@@ -46,13 +46,13 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
       if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
         quote = `"${secondQuotes[2].quote}"`;
 
-      } else if (secondQuotes[0].character.includes(fighter.name)) {
+      } else if (secondQuotes[0] && secondQuotes[0].character.includes(fighter.name)) {
         quote = `"${secondQuotes[0].quote}"`;
 
       } else if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
         quote = `"${firstQuotes[2].quote}"`;
 
-      } else if (firstQuotes[0].character.includes(fighter.name)) {
+      } else if (firstQuotes[0] && firstQuotes[0].character.includes(fighter.name)) {
         quote = `"${firstQuotes[0].quote}"`;
       };
 
@@ -62,9 +62,9 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 
 
     return (
-      <main className="stats-container">
+      <main className="stats-container" data-cy="stats-container">
 
-        <h1 className="title">Stats</h1>
+        <h1 className="title" data-cy="title">Stats</h1>
 
         <Link className="link" to="/matchUp">
           <p className="return-text">return to fight...</p>
