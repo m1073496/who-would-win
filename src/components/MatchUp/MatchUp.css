@@ -114,6 +114,19 @@
   font-family: 'Unica One', cursive;
 }
 
+.icons {
+  padding-top: 5px;
+  font-size: 14px;
+  background-color: black;
+  color: white;
+  font-family: 'Unica One', cursive;
+}
+
+.icon-link {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (min-width: 1025px) {
   .header {
     grid-column: 2 / 15;

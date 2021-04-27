@@ -141,6 +141,11 @@ class MatchUp extends Component {
           path="/matchUp/HXH">
           <CharacterList characterSet={ this.state.characterData[2] } selectFighters={ this.selectFighters } />
         </Route>
+        <div className="icons">
+          <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect" className="icon-link">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon" className="icon-link">www.flaticon.com</a></div>
+          <div>Icons made by <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan" className="icon-link">Darius Dan</a> from <a href="https://www.flaticon.com/" title="Flaticon" className="icon-link">www.flaticon.com</a></div>
+        </div>
+
       </div>
     )
   }
