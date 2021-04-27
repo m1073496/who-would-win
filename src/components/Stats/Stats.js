@@ -25,7 +25,7 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
 
         <h1 className="title" data-cy="title">Stats</h1>
 
-        <Link className="link" to="/matchUp">
+        <Link className="link" to="/matchUp" aria-label="Link to Match Up view">
           <p className="return-text">return to fight...</p>
           <img
             className="image"
@@ -57,6 +57,6 @@ export default Stats;
 Stats.propTypes = {
   fighter:PropTypes.object.isRequired,
   image: PropTypes.string,
-  firstQuotes:PropTypes.object.isRequired,
-  secondQuotes:PropTypes.object.isRequired
+  firstQuotes:PropTypes.object,
+  secondQuotes:PropTypes.object
 };

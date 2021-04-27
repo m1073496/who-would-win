@@ -71,7 +71,7 @@ class MatchUp extends Component {
         <main className="matchup-container" data-cy="matchup-container">
           <header className="header" data-cy="header">Who Would Win?</header>
           {this.state.firstFighter.name && this.state.secondFighter.name && <WinnerBar className="winner-bar" selectedFighters={[ this.state.firstFighter, this.state.secondFighter ]} vote={ this.state.vote } /> }
-          <Link to="/stats" className="first-fighter-link">
+          <Link to="/stats" className="first-fighter-link" aria-label="link to first character Stats view">
             <img
               className="first-fighter-box"
               data-cy="first-fighter-box"
@@ -97,7 +97,7 @@ class MatchUp extends Component {
             >VOTE</button>
           }
           <div className="vs" data-cy="vs">VS</div>
-          <Link to="/stats" className="second-fighter-link">
+          <Link to="/stats" className="second-fighter-link" aria-label="link to second character Stats view">
             <img
               className="second-fighter-box"
               data-cy="second-fighter-box"
