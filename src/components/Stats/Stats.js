@@ -14,49 +14,11 @@ const Stats = ({ fighter, image, firstQuotes, secondQuotes }) => {
       });
 
     let quote;
-
-    if (firstQuotes.error && secondQuotes.error) {
-      quote = '';
-
-    } else if (firstQuotes.error && secondQuotes[0].character.includes(fighter.name)) {
-
-      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
-        quote = `"${secondQuotes[2].quote}"`;
-      } else if (secondQuotes[0].character.includes(fighter.name)) {
-        quote = `"${secondQuotes[0].quote}"`;
-      } else {
-        quote = '';
-      };
-
-    } else if (secondQuotes.error && firstQuotes[0].character.includes(fighter.name)) {
-
-      if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
-        quote = `"${firstQuotes[2].quote}"`;
-      } else if (firstQuotes[0].character.includes(fighter.name)) {
-        quote = `"${firstQuotes[0].quote}"`;
-      } else {
-        quote = '';
-      };
-
-    } else if (!firstQuotes.error && !secondQuotes.error) {
-
-      if (secondQuotes[2] && secondQuotes[2].character.includes(fighter.name)) {
-        quote = `"${secondQuotes[2].quote}"`;
-
-      } else if (secondQuotes[0] && secondQuotes[0].character.includes(fighter.name)) {
-        quote = `"${secondQuotes[0].quote}"`;
-
-      } else if (firstQuotes[2] && firstQuotes[2].character.includes(fighter.name)) {
-        quote = `"${firstQuotes[2].quote}"`;
-
-      } else if (firstQuotes[0] && firstQuotes[0].character.includes(fighter.name)) {
-        quote = `"${firstQuotes[0].quote}"`;
-      };
-
-   } else if (!firstQuotes.error || !secondQuotes.error) {
-      quote = '';
-   };
-
+    if (firstQuotes.character === fighter.name) {
+      quote = firstQuotes.quotes[Math.floor(Math.random() * firstQuotes.quotes.length)];
+    } else if (secondQuotes.character === fighter.name) {
+      quote = secondQuotes.quotes[Math.floor(Math.random() * firstQuotes.quotes.length)];
+    };
 
     return (
       <main className="stats-container" data-cy="stats-container">
@@ -95,6 +57,6 @@ export default Stats;
 Stats.propTypes = {
   fighter:PropTypes.object.isRequired,
   image: PropTypes.string,
-  firstQuotes:PropTypes.array,
-  secondQuotes:PropTypes.array
+  firstQuotes:PropTypes.object.isRequired,
+  secondQuotes:PropTypes.object.isRequired
 };

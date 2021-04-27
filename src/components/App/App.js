@@ -15,8 +15,8 @@ class App extends Component {
     this.state = {
       fighterStats: {},
       image: '',
-      firstQuotes: [],
-      secondQuotes: []
+      firstQuotes: {},
+      secondQuotes: {}
     }
   }
 
@@ -28,10 +28,16 @@ getQuote = (fighterString, fighterName) => {
   fetch(`https://animechan.vercel.app/api/quotes/character?name=${fighterName}`)
     .then(response => response.json())
     .then(data => {
-      if (fighterString === 'firstFighter') {
-        this.setState({ firstQuotes: data })
-      } else {
-        this.setState({ secondQuotes: data })
+      if (fighterString === 'firstFighter' && !data.error) {
+        let quotes = data.map(item => item.quote);
+        this.setState({ firstQuotes: { character: `${fighterName}`, quotes: quotes } })
+      } else if (fighterString === 'firstFighter' && data.error) {
+        this.setState({ firstQuotes: { character: `${fighterName}`, quotes: {} } })
+      } else if (fighterString === 'secondFighter' && !data.error) {
+        let quotes = data.map(item => item.quote);
+        this.setState({ secondQuotes: { character: `${fighterName}`, quotes: quotes } })
+      } else if (fighterString === 'secondFighter' && data.error) {
+        this.setState({ secondQuotes: { character: `${fighterName}`, quotes: {} } })
       }
     })
 }
