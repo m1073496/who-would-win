@@ -119,8 +119,12 @@
   font-size: 14px;
   background-color: black;
   color: white;
-  text-decoration: none;
   font-family: 'Unica One', cursive;
+}
+
+.icon-link {
+  color: white;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1025px) {
