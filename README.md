@@ -82,6 +82,8 @@ A gif is chosen randomly out of a set of four that represent each of the anime w
 
 ### Accessibility
 
+<img width="1256" alt="Screen Shot 2021-04-26 at 8 32 58 PM" src="https://user-images.githubusercontent.com/73088654/116176194-f4795c00-a6ce-11eb-83f4-ff1c197de05f.png">
+<img width="1217" alt="Screen Shot 2021-04-26 at 8 32 04 PM" src="https://user-images.githubusercontent.com/73088654/116176187-f04d3e80-a6ce-11eb-8253-8ebdc8b5248e.png">
 
 
 ### End-to-End Testing Suite
