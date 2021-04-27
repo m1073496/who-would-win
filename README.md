@@ -18,7 +18,7 @@ This is a Mod 3 [Front-End Project](https://frontend.turing.edu/projects/module-
 
 ## Project Overview
 
-This is a Mod 3 final, solo project called `Niche Audience` that is designed to demonstrate understanding of React.js, React Router, End-to-End tesing with Cypress, and the use of User Personas to guide the app design. I chose Shounen anime fans as my niche audience, specifically fans of the shows `Dragon Ball`, `Yu Yu Hakusho`, and `Hanuter X Hunter`, and built an app that sets up hypothetical matches between characters of these universes. 
+This is a Mod 3 final, solo project called `Niche Audience` that is designed to demonstrate understanding of React.js, React Router, End-to-End tesing with Cypress, and the use of User Personas to guide the app design. I chose Shounen anime fans as my niche audience, specifically fans of the shows `Dragon Ball`, `Yu Yu Hakusho`, and `Hunter X Hunter`, and built an app that sets up hypothetical matches between characters of these universes. 
 
 
 ## App Overview
@@ -51,7 +51,7 @@ This app first brings a user to the homepage where they can enter the site with 
 
 ### Homepage
 
-A gif is chosen randomly out of a set of four that represent each of the anime worlds included in the app, and an easeter egg.
+A gif is chosen randomly out of a set of four that represent each of the anime worlds included in the app, and an easter egg of Yusuke falling.
 
 ![](https://media.giphy.com/media/g7f4ykZpdnT7nrEEep/giphy.gif)
 ![](https://media.giphy.com/media/67766s1BI1ujGYUxMV/giphy.gif)
