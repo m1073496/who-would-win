@@ -1,4 +1,4 @@
-# CarryOkay
+# Who Would Win?
 
 This is a Mod 3 [Front-End Project](https://frontend.turing.edu/projects/module-3/niche-audience.html) by [Jessica Justice](https://github.com/m1073496).
 
