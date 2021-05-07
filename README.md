@@ -23,7 +23,11 @@ This is a Mod 3 final, solo project called `Niche Audience` that is designed to 
 
 ## App Overview
 
-This app first brings a user to the homepage where they can enter the site with a click of a button. Then, they will see the `Match Up` view with placeholders for anime characters. Below, there are three lists of anime worlds that a user can choose from in order to select their fighters (NOTE: you can chose fighters from different universes to go head to head, not just 2 fighters from the same universe!). When one selection is made, that fighter appears above, and can be cleared away or clicked on to bring the user to a page with that fighter's stats. The use can navigate back to the Match Up page from the Stats page by clicking the character's image / back button. Selecting a second fighter will also make that fighter appear above, as well as a percentage bar that demonstrates who the hypothetical winner of that match would be. The user also has the option to vote for who they believe the hypothetical winner would be (voting buttons only appear when two fighters have been selected).
+This app first brings a user to the homepage where they can enter the site with a click of a button. Then, they will see the `Match Up` view with placeholders for anime characters. Below, there are three lists of anime worlds that a user can choose from in order to select their fighters (NOTE: you can chose fighters from different universes to go head to head, not just 2 fighters from the same universe!). 
+
+When one selection is made, that fighter appears above, and can be cleared away or clicked on to bring the user to a page with that fighter's stats. The user can navigate back to the Match Up page from the Stats page by clicking the character's image, which functions as a back button. 
+
+Selecting a second fighter will also make that fighter appear above, as well as a percentage bar that demonstrates who the hypothetical winner of that match would be. The user also has the option to vote for who they believe the hypothetical winner would be (voting buttons only appear when two fighters have been selected).
 
 
 ## Planning Resources
@@ -82,6 +86,8 @@ A gif is chosen randomly out of a set of four that represent each of the anime w
 
 ### Accessibility
 
+<img width="1256" alt="Screen Shot 2021-04-26 at 8 32 58 PM" src="https://user-images.githubusercontent.com/73088654/116176194-f4795c00-a6ce-11eb-83f4-ff1c197de05f.png">
+<img width="1217" alt="Screen Shot 2021-04-26 at 8 32 04 PM" src="https://user-images.githubusercontent.com/73088654/116176187-f04d3e80-a6ce-11eb-8253-8ebdc8b5248e.png">
 
 
 ### End-to-End Testing Suite
