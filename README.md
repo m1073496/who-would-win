@@ -1,4 +1,4 @@
-# [![Build Status](https://travis-ci.com/m1073496/who-would-win.svg?branch=main)](https://travis-ci.com/m1073496/who-would-win) Who Would Win?
+# Who Would Win?   [![Build Status](https://travis-ci.com/m1073496/who-would-win.svg?branch=main)](https://travis-ci.com/m1073496/who-would-win)
 
 This is a Mod 3 [Front-End Project](https://frontend.turing.edu/projects/module-3/niche-audience.html) by [Jessica Justice](https://github.com/m1073496).
 
