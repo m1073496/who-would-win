@@ -11,3 +11,5 @@ deploy:
     secure: lDALEPPLS2KafwteItBnbtaV3LV5OOA2f/7sLUdjBNe3WDYnn5ZyWBlEjpSbyZ5GSSqeOhkqkI0TnP2ONWcoc+LhHQhmMYkD/JOeTMu5VD+oJPbjy2jOikHokoJUKfPWu8gV6sEIDMum0AHzLDFeBxs9ihPoz/TufYbTNnQ2WkKz3nI+F547oijiYaNN10q4+dTUVyqVS8NfUFeG12+DV4+sI/S1O1bM4espl7zu5rgKVpA/UNtdmtMSpRhDsb3wivMop7FYX0X1fxOZTj8svNCpE7uuEZzkbuLp4LWz/JxyKmm4DEJau3nIs8olOFmd76t3JdavKCzzWt/0HbHhQlXCCA7vSK/6jeHfydtqr5NvI9SQST9NCBfh5+mvhNg/h3Pz/mo547khN4e7TvYzJxzCx9jbv9Mofqw4WJs4snDK9/D0gvjZ/IvcW/wYY7PWvrMcF1VsdJTHcTaSSV3Hyy13aEJVehM7p6J7qqYjpFW3c9SbXVM9X/fcU4c8tF9tQIJ9s2pICga/9U7EJvYEHcv9trZO+P4Llj8cluYKwX/Pujv5oyh+RYlFBRjPSHxQCcTJI5sSV4/5S/LjOIq2OGX4EbEWV7emo5JZ/loT9z+1O+Rj5/2jpe5fwzel8Xm8JJ4ss130Ev+0Ucgf7agzVQ5rTqR+PEskO0sCEH7ru/4=
     app: who-would-winn
     skip_cleanup: true
+env:
+  CI: false
