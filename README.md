@@ -1,5 +1,7 @@
 # Who Would Win?
 
+[![Build Status](https://travis-ci.com/m1073496/who-would-win.svg?branch=main)](https://travis-ci.com/m1073496/who-would-win)
+
 This is a Mod 3 [Front-End Project](https://frontend.turing.edu/projects/module-3/niche-audience.html) by [Jessica Justice](https://github.com/m1073496).
 
 ### Deployed App: [Who Would Win?](https://who-would-winn.herokuapp.com/)
@@ -50,6 +52,9 @@ Selecting a second fighter will also make that fighter appear above, as well as 
 - Cypress
   - Mocha
   - Chai
+
+### Continuous Integration"
+ - TravisCI
 
 ## Features
 
